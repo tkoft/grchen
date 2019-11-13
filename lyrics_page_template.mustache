@@ -1,0 +1,71 @@
+<head>
+    <title>{{title}}</title>
+</head>
+
+    <style>
+        * {
+            font-family: Arial;
+            color: lightgray;
+        }
+
+        h1 {
+            color: lightseagreen;
+        }
+
+        h1.title {
+            color: CornFlowerBlue;
+        }
+
+        h2 {
+            color: indianred;
+        }
+
+        h3 {
+            color: #dc8c8c;
+            font-weight: normal;
+            font-style: italic;
+        }
+
+        p {
+            white-space: pre-wrap;
+            font-size: 18px;
+            word-wrap: break-word;
+            line-height: 1.5;
+        }
+
+        body {
+            background-color: black;
+        }
+
+        .songContainer {
+            background: #181818;
+        }
+
+        .songContainer:nth-child(odd) {
+            background: black;
+        }
+
+        .chorus {
+            margin-left: 1em;
+        }
+        .bridge {
+            font-style: italic;
+            margin-left: 1em;
+        }
+    </style>
+
+    <h1 class="title">{{title}}</h1>
+
+    {{#songs}}
+        <div class="songContainer">
+        <br>
+        <h2>{{songTitle}}</h2>
+        <h3>{{songArtist}}</h3>
+        {{#verses}}
+            <p class="{{#isChorus}}Chorus{{/isChorus}}{{#isBridge}}Bridge{{/isBridge}}">{{verse}}</p>
+        {{/verses}}
+        <br>
+        </div>
+    {{/songs}}
+
+</body>
