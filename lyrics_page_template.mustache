@@ -37,6 +37,9 @@
 
         .songContainer {
             background: #181818;
+            padding-top: 1em;
+            padding-bottom: 1em;
+            page-break-inside: avoid;
         }
 
         .songContainer:nth-child(odd) {
@@ -56,13 +59,11 @@
     <h1 class="title">{{title}}</h1>
     {{#songs}}
         <div class="songContainer">
-        <br>
         <h2>{{songTitle}}</h2>
         <h3>{{songArtist}}</h3>
         {{#verses}}
             <p class="{{#isChorus}}Chorus{{/isChorus}}{{#isBridge}}Bridge{{/isBridge}}">{{verse}}</p>
         {{/verses}}
-        <br>
         </div>
     {{/songs}}
 </body>
