@@ -9,16 +9,18 @@ from __future__ import print_function
 
 import argparse
 import os
-import sys
 import re
+import sys
 
 import pystache
 
+
 def readRealLine(infile):
-    nextLine = infile.readline()
-    while (nextLine == "\n"):
-        nextLine = infile.readline()
-    return nextLine
+    next_line = infile.readline()
+    while next_line == "\n":
+        next_line = infile.readline()
+    return next_line
+
 
 def main(arguments):
 
@@ -30,7 +32,7 @@ def main(arguments):
         "-o",
         "--outfile",
         help="Output file",
-        default=sys.stdout,
+        default="worship.html",
         type=argparse.FileType("w"),
     )
 
@@ -38,47 +40,86 @@ def main(arguments):
 
     infile = args.infile
 
-    pageTitle = readRealLine(infile) # first line should always be title
+    page_title = readRealLine(infile)  # first line should always be title
 
-    nextLine = readRealLine(infile)
+    next_line = readRealLine(infile)
 
-    # songs loop
-    songs = []
-    while (nextLine != ""):
-        # not at EOF, nextLine should be a TITLE line
-        song_title_match = re.match('TITLE:\s*(.+)', nextLine)
-        assert song_title_match is not None
-        song_title = song_title_match.group(1)
-        nextLine = readRealLine(infile)
+    # sections loop
+    sections = []
+    while next_line != "":
+        # not at EOF, next_line should be a TITLE or SECTION line
+        section_title_match = re.match("TITLE:\s*(.+)", next_line)
+        if section_title_match is None:
+            section_title_match = re.match("SECTION:\s*(.+)", next_line)
+            assert section_title_match is not None
 
-        song_artist_match = re.match('ARTIST:\s*(.+)', nextLine)
-        assert song_artist_match is not None
-        song_artist = song_artist_match.group(1)
-        nextLine = readRealLine(infile)
+            section_title = section_title_match.group(1)
+            next_line = readRealLine(infile)
 
-        # verses loop
-        verses = []
-        while (not nextLine.startswith("TITLE:") and nextLine != ""):
-            isBridge = False
-            isChorus = False
-            verse = ""
-            if nextLine.startswith("CHORUS:"):
-                isChorus = True
-                nextLine = infile.readline()
-            elif nextLine.startswith("BRIDGE:"):
-                isBridge = True
-                nextLine = infile.readline()
-            while nextLine != "\n" and nextLine != "":
-                verse += nextLine
-                nextLine = infile.readline()
-            verses.append({"isChorus": isChorus, "isBridge": isBridge, "verse": verse})
-            nextLine = readRealLine(infile) # get first line of next paragraph, or EOF
+            section_text = ""
+            while (
+                not (next_line.startswith("TITLE:") or next_line.startswith("SECTION:"))
+                and next_line != ""
+            ):
+                section_text += next_line
+                next_line = readRealLine(infile)
 
-        songs.append({"songTitle": song_title, "songArtist": song_artist, "verses": verses})
-        # starting new song or EOF
+            sections.append(
+                {
+                    "isLiturgy": True,
+                    "isSong": False,
+                    "sectionTitle": section_title,
+                    "sectionText": section_text,
+                }
+            )
 
-    templateFile = open("lyrics_page_template.mustache", "r")
-    hashInfo = {"title": pageTitle, "songs": songs}
+        else:
+            song_title = section_title_match.group(1)
+            next_line = readRealLine(infile)
+
+            song_artist_match = re.match("ARTIST:\s*(.+)", next_line)
+            assert song_artist_match is not None
+            song_artist = song_artist_match.group(1)
+            next_line = readRealLine(infile)
+
+            # verses loop
+            verses = []
+            while (
+                not (next_line.startswith("TITLE:") or next_line.startswith("SECTION:"))
+                and next_line != ""
+            ):
+                is_bridge = False
+                is_chorus = False
+                verse = ""
+                if next_line.startswith("CHORUS:"):
+                    is_chorus = True
+                    next_line = infile.readline()
+                elif next_line.startswith("BRIDGE:"):
+                    is_bridge = True
+                    next_line = infile.readline()
+                while next_line != "\n" and next_line != "":
+                    verse += next_line
+                    next_line = infile.readline()
+                verses.append(
+                    {"isChorus": is_chorus, "isBridge": is_bridge, "verse": verse}
+                )
+                next_line = readRealLine(
+                    infile
+                )  # get first line of next paragraph, or EOF
+
+            sections.append(
+                {
+                    "isLiturgy": False,
+                    "isSong": True,
+                    "songTitle": song_title,
+                    "songArtist": song_artist,
+                    "verses": verses,
+                }
+            )
+        # starting new section or EOF
+
+    templateFile = open("liturgy_page_template.mustache", "r")
+    hashInfo = {"title": page_title, "sections": sections}
     output = pystache.render(templateFile.read(), hashInfo)
 
     args.outfile.write(output)

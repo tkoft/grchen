@@ -4,23 +4,21 @@
     <style>
         * {
             font-family: Arial;
-            color: lightgray;
-        }
-
-        h1 {
-            color: lightseagreen;
+            color: black;
         }
 
         h1.title {
-            color: CornFlowerBlue;
+            color: #21618C; /* trinity blue, more or less */
+            padding-left: 16px;
+            padding-top: 16px;
         }
 
         h2 {
-            color: indianred;
+            color: #2874A6;
         }
 
         h3 {
-            color: #dc8c8c;
+            color: #7FB3D5;
             font-weight: normal;
             font-style: italic;
         }
@@ -32,37 +30,82 @@
             line-height: 1.5;
         }
 
+        ul {
+            white-space: normal;
+            line-height: 1.5;
+        }
+
+        .sectionText {
+            white-space: pre-wrap;
+            font-size: 18px;
+            word-wrap: break-word;
+            line-height: 1.5;
+        }
+
         body {
-            background-color: black;
+            background-color: WHITE;
+            margin: 0px 0px 0px 0px;
+        }
+
+        .sectionContainer {
+            background: #F7F9F9; /* light gray */
+            padding-left: 16px;
+            padding-top: 16px;
+            padding-bottom: 32px;
+            page-break-inside: avoid;
+        }
+
+        .sectionContainer:nth-child(odd) {
+            background: WHITE;
+            padding-left: 16px;
+            padding-top: 16px;
+            padding-bottom: 32px;
         }
 
         .songContainer {
-            background: #181818;
-            padding-top: 1em;
-            padding-bottom: 1em;
+            background: #EBF5FB; /* light blue */
+            padding-left: 16px;
+            padding-top: 16px;
+            padding-bottom: 16px;
             page-break-inside: avoid;
         }
 
         .songContainer:nth-child(odd) {
-            background: black;
+            background: #EAF2F8; /* very light blue */
+            padding-left: 16px;
+            padding-top: 16px;
+            padding-bottom: 16px;
         }
 
         .chorus {
-            margin-left: 1em;
+            margin-left: 2em;
         }
         .bridge {
             font-style: italic;
-            margin-left: 1em;
+            margin-left: 2em;
         }
     </style>
 </head>
 <body>
     <h1 class="title">Sunday Corporate Worship 2020-09-06
 </h1>
-        <div class="songContainer">
-        <h2>10,000 Reasons</h2>
-        <h3>Matt Redman</h3>
-            <p class="">The sun comes up
+            <div class="sectionContainer">
+                <h2>Call to Worship</h2>
+                <div class="sectionText"><b>Psalm 95:1-7</b>
+“Oh come, let us sing to the Lord; let us make a joyful noise to the rock of our salvation!
+<b>Let us come into his presence with thanksgiving; let us make a joyful noise to him with songs of praise!</b>
+For the Lord is a great God, and a great King above all gods.
+<b>In his hand are the depths of the earth; the heights of the mountains are his also.</b>
+The sea is his, for he made it, and his hands formed the dry land.
+Oh come, let us worship and bow down; let us kneel before the Lord, our Maker!
+<b>For he is our God, and we are the people of his pasture, and the sheep of his hand.”</b>
+Let us worship the Lord together!
+</div>
+            </div>
+            <div class="songContainer">
+                <h2>10,000 Reasons</h2>
+                <h3>Matt Redman</h3>
+                    <p class="">The sun comes up
 It’s a new day dawning
 It’s time to sing Your song again
 Whatever may pass
@@ -70,14 +113,14 @@ And whatever lies before me
 Let me be singing
 When the evening comes
 </p>
-            <p class="Chorus">Bless the Lord O my soul
+                    <p class="Chorus">Bless the Lord O my soul
 O my soul
 Worship His Holy name
 Sing like never before
 O my soul
 I’ll worship Your Holy name
 </p>
-            <p class="">You’re rich in love
+                    <p class="">You’re rich in love
 And You’re slow to anger
 Your name is great
 And Your heart is kind
@@ -86,7 +129,7 @@ I will keep on singing
 Ten thousand reasons
 For my heart to find
 </p>
-            <p class="">And on that day
+                    <p class="">And on that day
 When my strength is failing
 The end draws near
 And my time has come
@@ -95,39 +138,90 @@ Sing Your praise unending
 Ten thousand years
 And then forevermore
 </p>
-        </div>
-        <div class="songContainer">
-        <h2>When I Think About the Lord</h2>
-        <h3>Shane &amp; Shane</h3>
-            <p class="">When I think about the Lord
+            </div>
+            <div class="songContainer">
+                <h2>When I Think About the Lord</h2>
+                <h3>Shane &amp; Shane</h3>
+                    <p class="">When I think about the Lord
 How He saved me how He raised me
 How He filled me with the Holy Ghost
 How He healed me to the uttermost
 </p>
-            <p class="">When I think about the Lord
+                    <p class="">When I think about the Lord
 How He picked me up and turned me around
 How He placed my feet on solid ground
 It makes me wanna shout
 </p>
-            <p class="Chorus">Hallelujah thank You Jesus
+                    <p class="Chorus">Hallelujah thank You Jesus
 Lord You&#x27;re worthy of all the glory
 And all the honor and all the praise
 </p>
-        </div>
-        <div class="songContainer">
-        <h2>Good and Gracious King</h2>
-        <h3>CityAlight</h3>
-            <p class="">I approach the throne of glory
+            </div>
+            <div class="sectionContainer">
+                <h2>Confession of Sin</h2>
+                <div class="sectionText"><b>Holy and merciful God, in your presence we confess our sinfulness, our shortcomings, and our offenses against you. You alone know how often we have sinned in wandering from your ways, in wasting your gifts, in forgetting your love. Have mercy on us, O Lord, for we are ashamed and sorry for all we have done to displease you. Forgive our sins, and help us to live in your light and walk in your ways, for the sake of Jesus Christ, our Savior. Amen.</b>
+</div>
+            </div>
+            <div class="sectionContainer">
+                <h2>Assurance of Pardon</h2>
+                <div class="sectionText"><b>2 Corinthians 4:5-6</b>
+"What we proclaim is not ourselves, but Jesus Christ as Lord, ... for God, who said, ‘Let light shine out of darkness,’ has shone in our hearts to give the light of the knowledge of the glory of God in the face of Jesus Christ.” <b>Thanks be to God.</b>
+</div>
+            </div>
+            <div class="sectionContainer">
+                <h2>Announcements</h2>
+                <div class="sectionText"><b>Members’ Meeting Tonight:</b> We’ll be having a Members’ Meeting tonight, Sunday, September 6 from 7-8pm. It will be held virtually on Zoom (link: https://us02web.zoom.us/j/86343253473). After the scheduled time, we will have an open Q&A time for any questions regarding the church.
+</div>
+            </div>
+            <div class="sectionContainer">
+                <h2>Scripture Reading &amp; Sermon</h2>
+                <div class="sectionText">Proverbs 18:22-19:22, “Sovereignty of the LORD Over Human Society/Socio-Economic Hierarchy”
+Shawn Woo
+</div>
+            </div>
+            <div class="sectionContainer">
+                <h2>Prayers of the People</h2>
+                <div class="sectionText"><b>Trinity Cambridge Church</b>
+<ul>
+    <li>That we would not trust in wealth, prestige, and power, but that we would trust in the name of our Heavenly Father</li>
+    <li>That God would help us to choose to be people of integrity, holiness, patience, and forgiveness</li>
+    <li>That we would see and value others as God does, not based on socio-economic factors or what we can get</li>
+</ul>
+<b>East Cambridge & Greater Boston</b>
+<ul>
+    <li>That God would use us to feed the poor in our neighborhoods – the poor in body with food and clothing, the poor in heart with the Lord Jesus and the Gospel</li>
+    <li>That God would help us to choose to be people of integrity, holiness, patience, and forgiveness</li>
+    <li>That we would see and value others as God does, not based on socio-economic factors or what we can get</li>
+</ul>
+<b>Beacon Community Church (Belmont, MA)</b>
+<ul>
+    <li>Pastor Dane Helsing; Pastoral Intern Dillon Cauley</li><li>Pray for Courtney, Jesse, and Robyn, who are close to professing faith in Jesus Christ as Savior and Lord.</li>
+    <li>Pray for continuing negotiations with the owner of the theater that they rent. For favor and an affordable agreed-on purchase price.</li>
+    <li>Pray for courage, wisdom, and unity for the church.</li>
+</ul>
+<b>Algeria, Week 1: Intro</b>
+Algeria is geographically the largest country in Africa, bordering the Mediterranean sea on the north where most of the population resides, and overlapping the Sahara desert to the South, which makes up about 80% of the country’s terrain. It has been influenced by many empires and peoples - Roman, Ottoman, Arab, Spanish - impacting the ways of culture and society. It experienced a bloody war of independence with France in 1962, and then a civil war in the 1990s that cost many lives and left more traumatized. It still faces political unrest and tension, especially with changes being made by the current president who came into office at the end of 2019, following the forced resignation after a 20 year rule of the previous president. Many people are skeptical of political promises for reform, and have been angered by the arrest of journalists and tightening control of society
+<ul>
+    <li>Pray for the peace and the welfare of Algeria</li>
+    <li>Pray for leaders to have integrity and wisdom, to not strive for power and control, and to represent the people fairly</li>
+    <li>Pray for political unrest and dissatisfaction to turn people to the only One that can bring true peace, justice, and restoration, Jesus Christ</li>
+</ul>
+</div>
+            </div>
+            <div class="songContainer">
+                <h2>Good and Gracious King</h2>
+                <h3>CityAlight</h3>
+                    <p class="">I approach the throne of glory
 Nothing in my hands I bring
 But the promise of acceptance
 From a good and gracious King
 </p>
-            <p class="">I will give to You my burden
+                    <p class="">I will give to You my burden
 As You give to me Your strength
 Come and fill me with Your Spirit
 As I sing to You this praise
 </p>
-            <p class="Chorus">You deserve the greater glory
+                    <p class="Chorus">You deserve the greater glory
 Overcome I lift my voice
 To the King in need of nothing
 Empty handed I rejoice
@@ -136,22 +230,22 @@ Overcome with joy I sing
 By Your love I am accepted
 You&#x27;re a good and gracious King
 </p>
-            <p class="">O what grace that You would see me
+                    <p class="">O what grace that You would see me
 As Your child and as Your friend
 Safe secure in You forever
 I pour out my praise again
 </p>
-            <p class="Bridge">Holy holy Lord Almighty
+                    <p class="Bridge">Holy holy Lord Almighty
 Good and gracious
 Good and gracious
 Holy holy Lord Almighty
 Good and gracious King
 </p>
-        </div>
-        <div class="songContainer">
-        <h2>King of Kings</h2>
-        <h3>Hillsong Worship</h3>
-            <p class="">In the darkness, we were waiting
+            </div>
+            <div class="songContainer">
+                <h2>King of Kings</h2>
+                <h3>Hillsong Worship</h3>
+                    <p class="">In the darkness, we were waiting
 Without hope, without light
 &#x27;Til from Heaven You came running
 There was mercy in Your eyes
@@ -160,12 +254,12 @@ To a virgin came the Word
 From a throne of endless glory
 To a cradle in the dirt
 </p>
-            <p class="Chorus">Praise the Father, praise the Son
+                    <p class="Chorus">Praise the Father, praise the Son
 Praise the Spirit, three in one
 God of glory, Majesty
 Praise forever to the King of Kings
 </p>
-            <p class="">To reveal the kingdom coming
+                    <p class="">To reveal the kingdom coming
 And to reconcile the lost
 To redeem the whole creation
 You did not despise the cross
@@ -174,7 +268,7 @@ You saw to the other side
 Knowing this was our salvation
 Jesus for our sake You died
 </p>
-            <p class="">And the morning that You rose
+                    <p class="">And the morning that You rose
 All of Heaven held its breath
 &#x27;Til that stone was moved for good
 For the Lamb had conquered death
@@ -183,7 +277,7 @@ And the angels stood in awe
 For the souls of all who&#x27;d come
 To the Father are restored
 </p>
-            <p class="">And the church of Christ was born
+                    <p class="">And the church of Christ was born
 Then the Spirit lit the flame
 Now this gospel truth of old
 Shall not kneel, shall not faint
@@ -192,5 +286,11 @@ In His freedom I am free
 For the love of Jesus Christ
 Who has resurrected me, ohh
 </p>
-        </div>
+            </div>
+            <div class="sectionContainer">
+                <h2>Commission &amp; Benediction</h2>
+                <div class="sectionText"><b>2 Corinthians 13:14</b>
+“The grace of the Lord Jesus Christ and the love of God and the fellowship of the Holy Spirit be with you all.”
+</div>
+            </div>
 </body>

@@ -1,0 +1,107 @@
+<head>
+    <title>{{title}}</title>
+    <style>
+        * {
+            font-family: Arial;
+            color: black;
+        }
+
+        h1.title {
+            color: #21618C; /* trinity blue, more or less */
+            padding-left: 16px;
+            padding-top: 16px;
+        }
+
+        h2 {
+            color: #2874A6;
+        }
+
+        h3 {
+            color: #7FB3D5;
+            font-weight: normal;
+            font-style: italic;
+        }
+
+        p {
+            white-space: pre-wrap;
+            font-size: 18px;
+            word-wrap: break-word;
+            line-height: 1.5;
+        }
+
+        ul {
+            white-space: normal;
+            line-height: 1.5;
+        }
+
+        .sectionText {
+            white-space: pre-wrap;
+            font-size: 18px;
+            word-wrap: break-word;
+            line-height: 1.5;
+        }
+
+        body {
+            background-color: WHITE;
+            margin: 0px 0px 0px 0px;
+        }
+
+        .sectionContainer {
+            background: #F7F9F9; /* light gray */
+            padding-left: 16px;
+            padding-top: 16px;
+            padding-bottom: 32px;
+            page-break-inside: avoid;
+        }
+
+        .sectionContainer:nth-child(odd) {
+            background: WHITE;
+            padding-left: 16px;
+            padding-top: 16px;
+            padding-bottom: 32px;
+        }
+
+        .songContainer {
+            background: #EBF5FB; /* light blue */
+            padding-left: 16px;
+            padding-top: 16px;
+            padding-bottom: 16px;
+            page-break-inside: avoid;
+        }
+
+        .songContainer:nth-child(odd) {
+            background: #EAF2F8; /* very light blue */
+            padding-left: 16px;
+            padding-top: 16px;
+            padding-bottom: 16px;
+        }
+
+        .chorus {
+            margin-left: 2em;
+        }
+        .bridge {
+            font-style: italic;
+            margin-left: 2em;
+        }
+    </style>
+</head>
+<body>
+    <h1 class="title">{{title}}</h1>
+    {{#sections}}
+        {{#isLiturgy}}
+            <div class="sectionContainer">
+                <h2>{{sectionTitle}}</h2>
+                <div class="sectionText">{{{sectionText}}}</div>
+            </div>
+        {{/isLiturgy}}
+        {{#isSong}}
+            <div class="songContainer">
+                <h2>{{songTitle}}</h2>
+                <h3>{{songArtist}}</h3>
+                {{#verses}}
+                    <p class="{{#isChorus}}Chorus{{/isChorus}}{{#isBridge}}Bridge{{/isBridge}}">{{verse}}</p>
+                {{/verses}}
+            </div>
+        {{/isSong}}
+    {{/sections}}
+</body>
