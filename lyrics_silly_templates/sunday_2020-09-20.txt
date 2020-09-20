@@ -1,153 +1,69 @@
-<head>
-    <title>Sunday Corporate Worship 2020-09-20
-</title>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="flowtype.js"></script>
-    <style>
-        * {
-            font-family: Arial;
-            color: black;
-        }
+Sunday Corporate Worship 2020-09-20
 
-        h1.title {
-            color: #21618C; /* trinity blue, more or less */
-            padding-left: 16px;
-            padding-top: 16px;
-            font-size: 1.5em;
-        }
-
-        h2 {
-            color: #2874A6;
-            font-size: 1.25em;
-        }
-
-        h3 {
-            color: #7FB3D5;
-            font-weight: normal;
-            font-style: italic;
-            font-size: 1em;
-        }
-
-        p {
-            white-space: pre-wrap;
-            word-wrap: break-word;
-            line-height: 1.5;
-        }
-
-        ul {
-            white-space: normal;
-            line-height: 1.5;
-        }
-
-        .sectionText {
-            white-space: pre-wrap;
-            word-wrap: break-word;
-            line-height: 1.5;
-        }
-
-        body {
-            background-color: WHITE;
-            margin: auto;
-            font-size: 18px;
-            max-width: 1500px;
-        }
-
-        .sectionContainer {
-            background: #F7F9F9; /* light gray */
-            padding: 16px 16px 32px 16px;
-            page-break-inside: avoid;
-        }
-
-        .sectionContainer:nth-child(odd) {
-            background: WHITE;
-            padding: 16px 16px 32px 16px;
-        }
-
-        .songContainer {
-            background: #EBF5FB; /* light blue */
-            padding: 16px 16px 16px 16px;
-            page-break-inside: avoid;
-        }
-
-        .songContainer:nth-child(odd) {
-            background: #EAF2F8; /* very light blue */
-            padding: 16px 16px 16px 16px;
-        }
-
-        .chorus {
-            margin-left: 2em;
-        }
-        .bridge {
-            font-style: italic;
-            margin-left: 2em;
-        }
-    </style>
-</head>
-<body>
-    <h1 class="title">Sunday Corporate Worship 2020-09-20
-</h1>
-            <div class="sectionContainer">
-                <h2>Call to Worship</h2>
-                <div class="sectionText"><b>Psalm 9:1-2, 7-11</b>
+SECTION: Call to Worship
+<b>Psalm 9:1-2, 7-11</b>
 I will give thanks to the LORD with my whole heart; I will recount all of your wonderful deeds. I will be glad and exult in you; I will sing praise to your name, O Most High.
 <b>The LORD sits enthroned forever; he has established his throne for justice, and he judges the world with righteousness; he judges the peoples with uprightness.</b>
 The LORD is a stronghold for the oppressed, a stronghold in times of trouble.
 <b>And those who know your name put their trust in you, for you, O LORD, have not forsaken those who seek you.</b>
 Let us sing praises to the LORD!
-</div>
-            </div>
-            <div class="songContainer">
-                <h2>Only a Holy God</h2>
-                <h3>CityAlight</h3>
-                    <p class="">Who else commands all the host of heaven
+
+TITLE: Only a Holy God
+ARTIST: CityAlight
+
+Who else commands all the host of heaven
 Who else could make every king bow down
 Who else can whisper and darkness tremble
 Only a Holy God
-</p>
-                    <p class="">What other beauty demands such praises
+
+What other beauty demands such praises
 What other splendor outshines the sun
 What other majesty rules with justice
 Only a Holy God
-</p>
-                    <p class="Chorus">Come and behold Him, the One and the Only
+
+CHORUS:
+Come and behold Him, the One and the Only
 Cry out, sing holy forever a Holy God
 Come and worship the Holy God
-</p>
-                    <p class="">What other glory consumes like fire
+
+What other glory consumes like fire
 What other power can raise the dead
 What other name remains undefeated
 Only a Holy God
-</p>
-                    <p class="">Who else could rescue me from my failing
+
+Who else could rescue me from my failing
 Who else would offer His only Son
 Who else invites me to call Him Father
 Only a Holy God
 Only a Holy God
-</p>
-            </div>
-            <div class="songContainer">
-                <h2>From Whom All Blessings Flow (Doxology)</h2>
-                <h3>Hillsong Worship</h3>
-                    <p class="">What gift of love could I offer to a King
+
+
+TITLE: From Whom All Blessings Flow (Doxology)
+ARTIST: Hillsong Worship
+
+What gift of love could I offer to a King
 What weight or worth could be held within my offering
 When He alone is worthy
-</p>
-                    <p class="">A glory song is inscribed upon my heart
+
+A glory song is inscribed upon my heart
 This treasure held in an alabaster jar I break
 To bring Him all the glory
-</p>
-                    <p class="Chorus">Praise God from whom all blessings flow
+
+CHORUS:
+Praise God from whom all blessings flow
 Praise Him all creatures here below
-</p>
-                    <p class="">What sacrifice could be equal to His own
+
+What sacrifice could be equal to His own
 The cross of Christ has declared that there is nought I owe
 Yet I know I owe Him all
-</p>
-                    <p class="Chorus">Praise God from whom all blessings flow
+
+CHORUS:
+Praise God from whom all blessings flow
 Praise Him all creatures here below
 Praise God from whom all blessings flow
-</p>
-                    <p class="Bridge">Our Father God, the infinite
+
+BRIDGE:
+Our Father God, the infinite
 The matchless King, magnificent
 The living Christ, the servant Son
 The prophesied, the saving One
@@ -156,45 +72,41 @@ The faithful Friend, the seal of love
 This life, this heart
 This song to Him
 My all in all, my everything
-</p>
-                    <p class="Chorus">Praise God from whom all blessings flow
+
+CHORUS:
+Praise God from whom all blessings flow
 Praise Him all creatures here below
 Praise Him above ye heavenly hosts
 Praise Father Son and Holy Ghost
-</p>
-            </div>
-            <div class="sectionContainer">
-                <h2>Confession of Sin</h2>
-                <div class="sectionText"><b>Merciful Lord, pardon all our sins of omission and commission, of sullen, peevish, and angry tempers, of lip, life and walk, of hard-heartedness, unbelief, presumption, pride, of unfaithfulness to the souls of men, of lack of bold decision in the cause of Christ, of deficiency in outspoken zeal for His glory, of deception, injustice, untruthfulness in our dealings with others, of impurity in thought, word and deed, of covetousness, which is idolatry, of substance unduly hoarded, unwisely squandered, not consecrated to Your glory. Pardon all our sins, known and unknown, felt and unfelt, confessed and not confessed, remembered or forgotten. Good Lord, hear; and hearing, forgive.</b>
+
+
+SECTION: Confession of Sin
+<b>Merciful Lord, pardon all our sins of omission and commission, of sullen, peevish, and angry tempers, of lip, life and walk, of hard-heartedness, unbelief, presumption, pride, of unfaithfulness to the souls of men, of lack of bold decision in the cause of Christ, of deficiency in outspoken zeal for His glory, of deception, injustice, untruthfulness in our dealings with others, of impurity in thought, word and deed, of covetousness, which is idolatry, of substance unduly hoarded, unwisely squandered, not consecrated to Your glory. Pardon all our sins, known and unknown, felt and unfelt, confessed and not confessed, remembered or forgotten. Good Lord, hear; and hearing, forgive.</b>
 “Sins” (adapted from The Valley of Vision, pp. 158-159)
-</div>
-            </div>
-            <div class="sectionContainer">
-                <h2>Assurance of Pardon</h2>
-                <div class="sectionText"><b>Psalm 103:8-14</b>
+
+SECTION: Assurance of Pardon
+<b>Psalm 103:8-14</b>
 "The LORD is merciful and gracious, slow to anger and abounding in steadfast love. He will not always chide, nor will he keep his anger forever. He does not deal with us according to our sins, nor repay us according to our iniquities. For as high as the heavens are above the earth, so great is his steadfast love toward those who fear him; as far as the east is from the west, so far does he remove our transgressions from us. As a father shows compassion to his children, so the LORD shows compassion to those who fear him. For he knows our frame; he remembers that we are dust.”
 <b>Thanks be to God.</b>
-</div>
-            </div>
-            <div class="sectionContainer">
-                <h2>Scripture Reading &amp; Sermon</h2>
-                <div class="sectionText">Proverbs 20:10-23, “Sovereignty of the LORD Over Human Business
+
+SECTION: Scripture Reading & Sermon
+Proverbs 20:10-23, “Sovereignty of the LORD Over Human Business
 Ray Park
-</div>
-            </div>
-            <div class="sectionContainer">
-                <h2>Prayers of the People</h2>
-                <div class="sectionText"><b>Trinity Cambridge Church</b>
+
+SECTION: Prayers of the People
+<b>Trinity Cambridge Church</b>
 <ul>
     <li>That we would be a church that cherishes God’s Word of Wisdom more than precious stones</li>
     <li>That we would be diligent, honest, and fair at work and in all our commercial dealings, even when that puts us at a disadvantage, trusting in God’s ultimate justice</li>
 </ul>
+
 <b>East Cambridge & Greater Boston</b>
 <ul>
     <li>That our neighbors would see that the word of Christ is more precious than costly stones</li>
     <li>For righteousness, justice, and peace to prevail in our city and nation’s economy, society, and public policy</li>
     <li>That Ed Markey and Elizabeth Warren, Senators of Massachusetts, would serve with integrity and wisdom</li>
 </ul>
+
 <b>King of Peace Church (Salem, MA)</b>
 <ul>
     <li>Church Planting couple Mike & Enza Lilley</li>
@@ -202,6 +114,7 @@ Ray Park
     <li>For faithful evangelism and salvation of unbelievers in Salem</li>
     <li>More laborers in their core team, especially after recent departures of core team members</li>
 </ul>
+
 <b>Algeria, Week 3: Church</b>
 Persecution has been rising in Algeria against Christians so that it has become the 17th country with the most intense persecution in the world in 2020. The government has actively been shutting down churches in the past year, sometimes interrupting meetings and harshly treating those present. It is very difficult for a believer from a Muslim background to be open about their faith because they will face harassment and discrimination from family and their community. Blasphemy against Islam and conversion of Muslims to Christianity is illegal, among other things, which means believers must be very careful who to trust and what to say. Despite these things, many people have been coming to faith through social media, radio, TV, and dreams and visions. Often, when an Algerian becomes a Christian, they think they are the only believers in Algeria because Christianity and Christian community is so suppressed. There are only an estimated 100,000 believers in Algeria.
 <ul>
@@ -209,27 +122,28 @@ Persecution has been rising in Algeria against Christians so that it has become 
     <li>Pray for isolated believers to find Christian communities, and for God to raise up many strong churches</li>
     <li>Pray for freedom of religion in Algeria, and that current political unrest would lead to changes in religious regulations</li>
 </ul>
-</div>
-            </div>
-            <div class="songContainer">
-                <h2>10,000 Reasons</h2>
-                <h3>Matt Redman</h3>
-                    <p class="">The sun comes up
+
+
+TITLE: 10,000 Reasons
+ARTIST: Matt Redman
+
+The sun comes up
 It’s a new day dawning
 It’s time to sing Your song again
 Whatever may pass
 And whatever lies before me
 Let me be singing
 When the evening comes
-</p>
-                    <p class="Chorus">Bless the Lord O my soul
+
+CHORUS:
+Bless the Lord O my soul
 O my soul
 Worship His Holy name
 Sing like never before
 O my soul
 I’ll worship Your Holy name
-</p>
-                    <p class="">You’re rich in love
+
+You’re rich in love
 And You’re slow to anger
 Your name is great
 And Your heart is kind
@@ -237,8 +151,8 @@ For all Your goodness
 I will keep on singing
 Ten thousand reasons
 For my heart to find
-</p>
-                    <p class="">And on that day
+
+And on that day
 When my strength is failing
 The end draws near
 And my time has come
@@ -246,60 +160,45 @@ Still my soul will
 Sing Your praise unending
 Ten thousand years
 And then forevermore
-</p>
-            </div>
-            <div class="songContainer">
-                <h2>Behold Our God</h2>
-                <h3>Soverign Grace Music</h3>
-                    <p class="">Who has held the oceans in his hands?
+
+
+TITLE: Behold Our God
+ARTIST: Soverign Grace Music
+
+Who has held the oceans in his hands?
 Who has numbered every grain of sand?
 Kings and nations tremble at his voice
 All creation rises to rejoice
-</p>
-                    <p class="Chorus">Behold our God, seated on his throne
+
+CHORUS:
+Behold our God, seated on his throne
 Come, let us adore him
 Behold our king, nothing can compare
 Come, let us adore him
-</p>
-                    <p class="">Who has given counsel to the Lord?
+
+Who has given counsel to the Lord?
 Who can question any of his words?
 Who can teach, the one who knows all things?
 Who can fathom all his wondrous deeds?
-</p>
-                    <p class="">Who has felt the nails upon his hands?
+
+Who has felt the nails upon his hands?
 Bearing all the guilt of sinful man
 God eternal, humbled to the grave
 Jesus, Savior, risen now to reign
-</p>
-                    <p class="Bridge">You will reign forever (let Your glory fill the Earth)
+
+BRIDGE:
 You will reign forever (let Your glory fill the Earth)
 You will reign forever (let Your glory fill the Earth)
 You will reign forever (let Your glory fill the Earth)
-</p>
-            </div>
-            <div class="sectionContainer">
-                <h2>Announcements</h2>
-                <div class="sectionText"><ul>
+You will reign forever (let Your glory fill the Earth)
+
+SECTION: Announcements
+<ul>
     <li>Reminder that members may <b>nominate Deacon and Elder candidates</b> at: https://trinitycambridge.com/leadership/nominate/</li>
     <li><b>Testimony Thursday</b> – Our monthly Testimony Thursday is this Thursday. Join us on <b>Thursday, 9/24, 7-8pm</b> on Zoom.</li>
     <li>Join us for our monthly <b>Three Days of Prayer and Fasting</b> from Monday-Wednesday (September 21-23). This month’s prayer guide can be found on https://trinitycambridge.com/prayer-092020/</li>
 </ul>
-</div>
-            </div>
-            <div class="sectionContainer">
-                <h2>Commission &amp; Benediction</h2>
-                <div class="sectionText"><b>2 Corinthians 13:14</b>
-“The grace of the Lord Jesus Christ and the love of God and the fellowship of the Holy Spirit be with you all.”
-</div>
-            </div>
 
-    <script>
-        $('body').flowtype({
-        minimum   : 400,
-        maximum   : 1200,
-        minFont   : 20,
-        maxFont   : 40,
-        fontRatio : 40
-        });
-    </script>
-</body>
+SECTION: Commission & Benediction
+<b>2 Corinthians 13:14</b>
+“The grace of the Lord Jesus Christ and the love of God and the fellowship of the Holy Spirit be with you all.”
