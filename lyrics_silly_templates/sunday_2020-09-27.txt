@@ -1,194 +1,105 @@
-<head>
-    <title>Sunday Corporate Worship 2020-09-27
-</title>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="flowtype.js"></script>
-    <style>
-        * {
-            font-family: Arial;
-            color: black;
-        }
+Sunday Corporate Worship 2020-09-27
 
-        h1.title {
-            color: #21618C; /* trinity blue, more or less */
-            padding-left: 16px;
-            padding-top: 16px;
-            font-size: 1.5em;
-        }
-
-        h2 {
-            color: #2874A6;
-            font-size: 1.25em;
-        }
-
-        h3 {
-            color: #7FB3D5;
-            font-weight: normal;
-            font-style: italic;
-            font-size: 1em;
-        }
-
-        p {
-            white-space: pre-wrap;
-            word-wrap: break-word;
-            line-height: 1.5;
-        }
-
-        ul {
-            white-space: normal;
-            line-height: 1.5;
-        }
-
-        .sectionText {
-            white-space: pre-wrap;
-            word-wrap: break-word;
-            line-height: 1.5;
-        }
-
-        body {
-            background-color: WHITE;
-            margin: auto;
-            font-size: 18px;
-            max-width: 1500px;
-        }
-
-        .sectionContainer {
-            background: #F7F9F9; /* light gray */
-            padding: 16px 16px 32px 16px;
-            page-break-inside: avoid;
-        }
-
-        .sectionContainer:nth-child(odd) {
-            background: WHITE;
-            padding: 16px 16px 32px 16px;
-        }
-
-        .songContainer {
-            background: #EBF5FB; /* light blue */
-            padding: 16px 16px 16px 16px;
-            page-break-inside: avoid;
-        }
-
-        .songContainer:nth-child(odd) {
-            background: #EAF2F8; /* very light blue */
-            padding: 16px 16px 16px 16px;
-        }
-
-        .chorus {
-            margin-left: 2em;
-        }
-        .bridge {
-            font-style: italic;
-            margin-left: 2em;
-        }
-    </style>
-</head>
-<body>
-    <h1 class="title">Sunday Corporate Worship 2020-09-27
-</h1>
-            <div class="sectionContainer">
-                <h2>Call to Worship</h2>
-                <div class="sectionText"><b>Psalm 86:8-13</b>
+SECTION: Call to Worship
+<b>Psalm 86:8-13</b>
 There is none like you among the gods, O Lord, nor are there any works like yours.
 <b>All the nations you have made shall come and worship before you, O Lord, and shall glorify your name. For you are great and do wondrous things; you alone are God.</b>
 Teach me your way, O LORD, that I may walk in your truth; unite my heart to fear your name.
 <b>I give thanks to you, O Lord my God, with my whole heart, and I will glorify your name forever. For great is your steadfast love toward me; you have delivered my soul from the depths of Sheol.</b>
 Let us worship together!
-</div>
-            </div>
-            <div class="songContainer">
-                <h2>More Like Jesus</h2>
-                <h3>Passion</h3>
-                    <p class="">You came to the world you created
+
+TITLE: More Like Jesus
+ARTIST: Passion
+
+You came to the world you created
 Trading your crown for a cross
 You willingly died
 Your innocent life paid the cost
-</p>
-                    <p class="">Counting your status as nothing,
+
+Counting your status as nothing,
 The King of all kings came to serve
 Washing my feet
 Covering me with your love
-</p>
-                    <p class="Chorus">If more of You means less of me
+
+CHORUS:
+If more of You means less of me
 Take everything
 Yes, all of You is all I need
 Take everything
-</p>
-                    <p class="">You are my life and my treasure
-The one that I can&#x27;t live without
+
+You are my life and my treasure
+The one that I can't live without
 Here at your feet my desires and dreams, I lay down
 Here at your feet my desires and dreams, I lay down
-</p>
-                    <p class="Bridge">Oh Lord
+
+BRIDGE:
+Oh Lord
 Change me like only You can
 Here with my hearts in your hands
 Father, I pray make me more like Jesus
-</p>
-                    <p class="Bridge">This world
+
+BRIDGE:
+This world
 Is dying to know who You are
-You&#x27;ve shown us the way to Your heart
+You've shown us the way to Your heart
 Father, I pray make me more like Jesus
-</p>
-            </div>
-            <div class="songContainer">
-                <h2>Ancient of Days</h2>
-                <h3>CityAlight</h3>
-                    <p class="">Though the nations rage, kingdoms rise and fall
+
+
+TITLE: Ancient of Days
+ARTIST: CityAlight
+
+Though the nations rage, kingdoms rise and fall
 There is still one King reigning over all
 So I will not fear for this truth remains
 That my God is, the Ancient of Days
-</p>
-                    <p class="Chorus">None above Him, none before Him
+
+CHORUS:
+None above Him, none before Him
 All of time in His hands
 For His throne it shall remain and ever stand
 All the power, all the glory
 I will trust in His name
 For my God is, the Ancient of Days
-</p>
-                    <p class="">Though the dread of night overwhelms my soul
+
+Though the dread of night overwhelms my soul
 He is here with me, I am not alone
 O His love is sure, and He knows my name
 For my God is, the Ancient of Days
-</p>
-                    <p class="">Though I may not see what the future brings
+
+Though I may not see what the future brings
 I will watch and wait for the Saviour King
 Then my joy complete, standing face to face
 In the presence of the Ancient of Days
-</p>
-            </div>
-            <div class="sectionContainer">
-                <h2>Confession of Sin</h2>
-                <div class="sectionText"><b>Merciful God, because of the great love with which You loved us, you made us alive together with Christ, yet we wallow in the death of sin. You raised us up with Christ, yet we follow the course of this wayward world. You seated us with Christ in the heavenly places, yet we succumb to the power and influence of lowly, evil spirits. Forgive us for our pride and unbelief, and enable us to walk in the good works that You prepared beforehand for us. Help us to keep our eyes on Jesus, the founder and perfecter of our faith, who for the joy that was set before Him endured the cross and is now seated at Your right hand. Amen.</b>
+
+
+SECTION: Confession of Sin
+<b>Merciful God, because of the great love with which You loved us, you made us alive together with Christ, yet we wallow in the death of sin. You raised us up with Christ, yet we follow the course of this wayward world. You seated us with Christ in the heavenly places, yet we succumb to the power and influence of lowly, evil spirits. Forgive us for our pride and unbelief, and enable us to walk in the good works that You prepared beforehand for us. Help us to keep our eyes on Jesus, the founder and perfecter of our faith, who for the joy that was set before Him endured the cross and is now seated at Your right hand. Amen.</b>
 Ephesians 2:1-10, Hebrews 12:1-2
-</div>
-            </div>
-            <div class="sectionContainer">
-                <h2>Assurance of Pardon</h2>
-                <div class="sectionText"><b>2 Corinthians 5:17-19</b>
+
+SECTION: Assurance of Pardon
+<b>2 Corinthians 5:17-19</b>
 Therefore, if anyone is in Christ, he is a new creation. The old has passed away; behold, the new has come. All this is from God, who through Christ reconciled us to himself and gave us the ministry of reconciliation; that is, in Christ God was reconciling the world to himself, not counting their trespasses against them, and entrusting to us the message of reconciliation.
 <b>Thanks be to God.</b>
-</div>
-            </div>
-            <div class="sectionContainer">
-                <h2>Scripture Reading &amp; Sermon</h2>
-                <div class="sectionText">Proverbs 20:24-21:2, “Sovereignty of the LORD Over Human Secrets”
+
+SECTION: Scripture Reading & Sermon
+Proverbs 20:24-21:2, “Sovereignty of the LORD Over Human Secrets”
 Shawn Woo
-</div>
-            </div>
-            <div class="sectionContainer">
-                <h2>Prayers of the People</h2>
-                <div class="sectionText"><b>Trinity Cambridge Church</b>
+
+SECTION: Prayers of the People
+<b>Trinity Cambridge Church</b>
 <ul>
     <li>That we would seek holiness, asking God to search and know us and lead us in his ways</li>
     <li>That we would constantly remember and taste the steadfast love and faithfulness of our King Jesus</li>
     <li>That we would entrust ourselves to God who controls kings and all things</li>
 </ul>
+
 <b>East Cambridge & Greater Boston</b>
 <ul>
     <li>That God would move mightily in our neighbors’ hearts, shining his holy, gracious light upon sinful, needy souls that they might seek Him</li>
     <li>That, in this election season, our community and nation would learn to trust not in man and human institutions but in the God who is just and will make all things new</li>
     <li>For Charlie Baker, Governor of Massachusetts, to govern with wisdom, righteousness, and integrity</li>
 </ul>
+
 <b>Tremont Temple Baptist Church (Salem, MA)</b>
 <ul>
     <li>Pastor Jaime Owens</li>
@@ -196,17 +107,18 @@ Shawn Woo
     <li>For unity around the gospel and submission to God’s Word within this theologically diverse congregation</li>
     <li>For wisdom as they plan to regather for worship, especially considering many of their members are elderly</li>
 </ul>
+
 <b>Algeria, Week 4: Missions & Neighbors</b>
 There are an estimated 100,000 believers in Algeria, which is encouraging growth from past decades and centuries, but there is so much more outreach needed in a population of 44 million people. There has been little success in reaching Algerians with the gospel, much because of deep wounds from a history of colonialism, crusades, and invasions causing distrust of anything perceived as Western, including Christianity. There are an estimated 889 missionaries needed for the country of Algeria, and there is a need for God to call together prayer teams who will intercede on behalf of Algerians for open hearts, new outreach strategies, and access to this country which is closed to missionaries and very difficult with visa approval. However, Radio broadcast, satellite TV, and social media have been effective at reaching people with the news about Jesus Christ, more use of these things is needed in sharing the gospel.
 <ul>
     <li>Pray for God to soften the hearts of Algerians to see Christianity as a truly Algerian religion, not originally a Western religion</li>
     <li>Pray for God to raise up prayer teams for Algeria to help break up the soil through intercession, to call people into service for Algeria, and for creative and effective ways of outreach</li>
 </ul>
-</div>
-            </div>
-            <div class="sectionContainer">
-                <h2>New Member Induction</h2>
-                <div class="sectionText">AnnElise Berger
+
+
+SECTION: New Member Induction
+
+AnnElise Berger
 Shaun Berger
 Jennifer Cook
 Anna Craig
@@ -218,59 +130,60 @@ Chris McClendon
 Minna Wang
 James Xue
 Daniel Yuan
-</div>
-            </div>
-            <div class="sectionContainer">
-                <h2>Our Membership Covenant</h2>
-                <div class="sectionText">Having been brought by God’s sovereign grace into the fellowship of the Spirit through repentance and faith in Jesus Christ, and having been baptized upon our profession of faith, we do now, in the presence of God, angels, and this assembly, most solemnly and joyfully enter into covenant with one another as one body in Christ.
+
+
+SECTION: Our Membership Covenant
+
+Having been brought by God’s sovereign grace into the fellowship of the Spirit through repentance and faith in Jesus Christ, and having been baptized upon our profession of faith, we do now, in the presence of God, angels, and this assembly, most solemnly and joyfully enter into covenant with one another as one body in Christ.
 <br>We endeavor, therefore, to love God with all our heart, soul, mind, and strength: to strive for the advancement of this church in knowledge, holiness, and peace; to promote the church’s spirituality and fruitfulness; to not neglect assembling together, but to sustain its worship, sacraments, and discipline; to welcome, and test biblically, instruction from the Scriptures by the elders of the church, seeking to grow toward biblical unity in the truth; to contribute cheerfully and regularly to the support of the ministry, the expenses of the church, the relief of the poor, and the spread of the gospel through all nations.
 <br>We also endeavor to love one another: to remember one another in prayer; to aid one another in sickness and distress; to cultivate Christian sympathy in feeling and courtesy in speech; to avoid gossip, backbiting and excessive anger; to be slow to take offense, but quick to seek reconciliation and mindful of the rules of our Savior to secure it without delay; to admonish erring members whose sins require it, and to support the leadership of the elders in corporate discipline to secure their repentance and reconciliation.
 <br>We further endeavor to share the love of Christ with others: to educate our children in the Christian faith; to seek the salvation of our kindred and neighbors; to walk circumspectly in the world; to be just in our dealings, faithful in our engagements, and exemplary in our deportment.
 <br>We moreover endeavor, if we remove from this place, to unite as soon as possible with a like-minded church where we can carry out the spirit of this covenant.May the grace of the Lord Jesus Christ, and the love of God, and the fellowship of the Holy Spirit be with us all. Amen.
-</div>
-            </div>
-            <div class="songContainer">
-                <h2>I Surrender All</h2>
-                <h3>Judson W. Van DeVenter</h3>
-                    <p class="">All to Jesus I surrender
+
+
+TITLE: I Surrender All
+ARTIST: Judson W. Van DeVenter
+
+All to Jesus I surrender
 All to Him I freely give
 I will ever love and trust Him
 In His presence daily live
-</p>
-                    <p class="Chorus">I surrender all
+
+CHORUS:
+I surrender all
 I surrender all
 All to Thee my blessed Savior
 I surrender all
-</p>
-                    <p class="">All to Jesus I surrender
+
+All to Jesus I surrender
 Humbly at His feet I bow
 Worldly pleasures all forsaken
 Take me, Jesus, take me now
-</p>
-                    <p class="">All to Jesus I surrender,
+
+All to Jesus I surrender,
 Make me, Savior, wholly Thine;
 Let me feel Thy Holy Spirit,
 Truly know that Thou art mine.
-</p>
-                    <p class="">All to Jesus I surrender,
+
+All to Jesus I surrender,
 Lord, I give myself to Thee;
 Fill me with Thy love and power,
 Let Thy blessing fall on me.
-</p>
-            </div>
-            <div class="songContainer">
-                <h2>From the Inside Out</h2>
-                <h3>Hillsong UNITED</h3>
-                    <p class="">A thousand times I&#x27;ve failed
+
+
+TITLE: From the Inside Out
+ARTIST: Hillsong UNITED
+
+A thousand times I've failed
 Still Your mercy remains
 And should I stumble again
-I&#x27;m caught in Your grace
+I'm caught in Your grace
 Everlasting
 Your light will shine when all else fades
 Never ending
 Your glory goes beyond all fame
-</p>
-                    <p class="">Your will above all else
+
+Your will above all else
 My purpose remains
 The art of losing myself
 In bringing You praise
@@ -278,15 +191,17 @@ Everlasting
 Your light will shine when all else fades
 Never ending
 Your glory goes beyond all fame
-</p>
-                    <p class="Chorus">In my heart and my soul
+
+CHORUS:
+In my heart and my soul
 Lord I give You control
 Consume me from the inside out,
 Lord, let justice and praise
 Become my embrace
 To love you from the inside out
-</p>
-                    <p class="Chorus">Everlasting
+
+CHORUS:
+Everlasting
 Your light will shine when all else fades
 Never ending
 Your glory goes beyond all fame
@@ -294,22 +209,8 @@ And the cry of my heart
 Is to bring You praise
 From the inside out
 Lord my soul cries out
-</p>
-            </div>
-            <div class="sectionContainer">
-                <h2>Commission &amp; Benediction</h2>
-                <div class="sectionText"><b>2 Corinthians 13:14</b>
-“The grace of the Lord Jesus Christ and the love of God and the fellowship of the Holy Spirit be with you all.”
-</div>
-            </div>
 
-    <script>
-        $('body').flowtype({
-        minimum   : 400,
-        maximum   : 1200,
-        minFont   : 20,
-        maxFont   : 40,
-        fontRatio : 40
-        });
-    </script>
-</body>
+
+SECTION: Commission & Benediction
+<b>2 Corinthians 13:14</b>
+“The grace of the Lord Jesus Christ and the love of God and the fellowship of the Holy Spirit be with you all.”
