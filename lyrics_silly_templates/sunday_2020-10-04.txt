@@ -1,131 +1,45 @@
-<head>
-    <title>Sunday Corporate Worship 2020-09-27
-</title>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="flowtype.js"></script>
-    <style>
-        * {
-            font-family: Arial;
-            color: black;
-        }
+Sunday Corporate Worship 2020-09-27
 
-        h1.title {
-            color: #21618C; /* trinity blue, more or less */
-            padding-left: 16px;
-            padding-top: 16px;
-            font-size: 1.5em;
-        }
-
-        h2 {
-            color: #2874A6;
-            font-size: 1.25em;
-        }
-
-        h3 {
-            color: #7FB3D5;
-            font-weight: normal;
-            font-style: italic;
-            font-size: 1em;
-        }
-
-        p {
-            white-space: pre-wrap;
-            word-wrap: break-word;
-            line-height: 1.5;
-        }
-
-        ul {
-            white-space: normal;
-            line-height: 1.5;
-        }
-
-        .sectionText {
-            white-space: pre-wrap;
-            word-wrap: break-word;
-            line-height: 1.5;
-        }
-
-        body {
-            background-color: WHITE;
-            margin: auto;
-            font-size: 18px;
-            max-width: 1500px;
-        }
-
-        .sectionContainer {
-            background: #F7F9F9; /* light gray */
-            padding: 16px 16px 32px 16px;
-            page-break-inside: avoid;
-        }
-
-        .sectionContainer:nth-child(odd) {
-            background: WHITE;
-            padding: 16px 16px 32px 16px;
-        }
-
-        .songContainer {
-            background: #EBF5FB; /* light blue */
-            padding: 16px 16px 16px 16px;
-            page-break-inside: avoid;
-        }
-
-        .songContainer:nth-child(odd) {
-            background: #EAF2F8; /* very light blue */
-            padding: 16px 16px 16px 16px;
-        }
-
-        .chorus {
-            margin-left: 2em;
-        }
-        .bridge {
-            font-style: italic;
-            margin-left: 2em;
-        }
-    </style>
-</head>
-<body>
-    <h1 class="title">Sunday Corporate Worship 2020-09-27
-</h1>
-            <div class="sectionContainer">
-                <h2>Call to Worship</h2>
-                <div class="sectionText"><b>Psalm 146:1-4, 7-10</b>
+SECTION: Call to Worship
+<b>Psalm 146:1-4, 7-10</b>
 Praise the LORD! Praise the LORD, O my soul! I will praise the LORD as long as I live; I will sing praises to my God while I have my being.
 <b>Put not your trust in princes, in a son of man, in whom there is no salvation. When his breath departs he returns to the earth; on that very day his plans perish.</b>
 The LORD sets the prisoners free; the LORD opens the eyes of the blind. The LORD lifts up those who are bowed down; the LORD loves the righteous. The LORD watches over the sojourners; he upholds the widow and the fatherless, but the way of the wicked he brings to ruin.
 <b>The LORD will reign forever, your God, O Zion, to all generations. Praise the LORD!</b>
 Let us worship together!
-</div>
-            </div>
-            <div class="songContainer">
-                <h2>Ancient of Days</h2>
-                <h3>CityAlight</h3>
-                    <p class="">Though the nations rage, kingdoms rise and fall
+
+
+TITLE: Ancient of Days
+ARTIST: CityAlight
+
+Though the nations rage, kingdoms rise and fall
 There is still one King reigning over all
 So I will not fear for this truth remains
 That my God is, the Ancient of Days
-</p>
-                    <p class="Chorus">None above Him, none before Him
+
+CHORUS:
+None above Him, none before Him
 All of time in His hands
 For His throne it shall remain and ever stand
 All the power, all the glory
 I will trust in His name
 For my God is, the Ancient of Days
-</p>
-                    <p class="">Though the dread of night overwhelms my soul
+
+Though the dread of night overwhelms my soul
 He is here with me, I am not alone
 O His love is sure, and He knows my name
 For my God is, the Ancient of Days
-</p>
-                    <p class="">Though I may not see what the future brings
+
+Though I may not see what the future brings
 I will watch and wait for the Saviour King
 Then my joy complete, standing face to face
 In the presence of the Ancient of Days
-</p>
-            </div>
-            <div class="songContainer">
-                <h2>How Deep the Father&#x27;s Love For Us</h2>
-                <h3>Stuart Townend</h3>
-                    <p class="">How deep the Father’s love for us
+
+
+TITLE: How Deep the Father's Love For Us
+ARTIST: Stuart Townend
+
+How deep the Father’s love for us
 How vast beyond all measure
 That He should give His only Son
 To make a wretch His treasure
@@ -133,8 +47,8 @@ How great the pain of searing loss
 The Father turns His face away
 As wounds which mar the chosen One
 Bring many sons to glory
-</p>
-                    <p class="">Behold the Man upon the cross
+
+Behold the Man upon the cross
 My sin upon His shoulders
 Ashamed I hear my mocking voice
 Call out among the scoffers
@@ -142,8 +56,8 @@ It was my sin that held Him there
 Until it was accomplished
 His dying breath has brought me life
 I know that it is finished
-</p>
-                    <p class="">I will not boast in anything
+
+I will not boast in anything
 No gifts no power no wisdom
 But I will boast in Jesus Christ
 His death and resurrection
@@ -151,40 +65,35 @@ Why should I gain from His reward
 I cannot give an answer
 But this I know with all my heart
 His wounds have paid my ransom
-</p>
-            </div>
-            <div class="sectionContainer">
-                <h2>Confession of Sin</h2>
-                <div class="sectionText"><b>Almighty God, in raising Jesus from the tomb you have given us the sure sign of your power to deliver us from sin and death and to renew our whole creation. We confess that we still fall into doubt and fear. We continue to cling to selfish ways and doubt your power to make all things new. Forgive our lack of faith. Have mercy on our weakness. Raise us from the death of sin that we may live with Christ in the joy of his resurrection, now and forever.</b>
-</div>
-            </div>
-            <div class="sectionContainer">
-                <h2>Assurance of Pardon</h2>
-                <div class="sectionText"><b>Romans 8:31-34, 38-39</b>
+
+
+SECTION: Confession of Sin
+<b>Almighty God, in raising Jesus from the tomb you have given us the sure sign of your power to deliver us from sin and death and to renew our whole creation. We confess that we still fall into doubt and fear. We continue to cling to selfish ways and doubt your power to make all things new. Forgive our lack of faith. Have mercy on our weakness. Raise us from the death of sin that we may live with Christ in the joy of his resurrection, now and forever.</b>
+
+SECTION: Assurance of Pardon
+<b>Romans 8:31-34, 38-39</b>
 "If God is for us, who can be against us? He who did not spare his own Son but gave him up for us all, how will he not also with him graciously give us all things? Who shall bring any charge against God's elect? It is God who justifies. Who is to condemn? Christ Jesus is the one who died—more than that, who was raised—who is at the right hand of God, who indeed is interceding for us... For I am sure that neither death nor life, nor angels nor rulers, nor things present nor things to come, nor powers, nor height nor depth, nor anything else in all creation, will be able to separate us from the love of God in Christ Jesus our Lord."
 <b>Thanks be to God.</b>
-</div>
-            </div>
-            <div class="sectionContainer">
-                <h2>Scripture Reading &amp; Sermon</h2>
-                <div class="sectionText">Proverbs 21:2-21:31, “Sovereignty of the LORD Over Human Justice”
+
+SECTION: Scripture Reading & Sermon
+Proverbs 21:2-21:31, “Sovereignty of the LORD Over Human Justice”
 Shawn Woo
-</div>
-            </div>
-            <div class="sectionContainer">
-                <h2>Prayers of the People</h2>
-                <div class="sectionText"><b>Trinity Cambridge Church</b>
+
+SECTION: Prayers of the People
+<b>Trinity Cambridge Church</b>
 <ul>
     <li>That God would grant us humble hearts in light of who he is and his love for us in Jesus Christ</li>
     <li>That we would not be enticed by unjust gains or worldly pleasures, but that God would change our appetites and desires to be of things that are above</li>
     <li>That God would help us to diligently do all things to the glory of God, not least to ask, seek, and knock after knowing Christ intimately</li>
 </ul>
+
 <b>East Cambridge & Greater Boston</b>
 <ul>
     <li>That unbelieving scoffers and the simple who do not know Christ would become wise through hearing the Gospel and receiving Christ</li>
     <li>That justice would be done in our community to the joy of many</li>
     <li>For Maura Healey, current Attorney General of Massachusetts, to effectively advocate for citizens’ rights and execute justice</li>
 </ul>
+
 <b>Redeemer Fellowship Church (Watertown, MA)</b>
 <ul>
     <li>For Pastors Erik Raymond and Andrew Belli</li>
@@ -192,54 +101,56 @@ Shawn Woo
     <li>For Church Planting resident Dave Comeau and his family, for funding, recruitment of core team, and open doors</li>
     <li>For Redeemer, "that their love may abound more and more, with knowledge and all discernment, so that they may approve what is excellent, and so be pure and blameless for the day of Christ" (Phil. 1:9-10)</li>
 </ul>
+
 <b>Bangladesh, Week 1: News & Events</b>
 Like every nation, Bangladesh has been hit hard with the Covid pandemic and has struggled to manage, especially with a healthcare system that was already insufficient to care for much of the country’s existing needs. Closure of factories and other attempts at slowing transmission has resulted in high rates of unemployment causing other concerns such as hunger - food more desperately needed than soap, masks, or other health safety. In addition to the pandemic, Bangladesh has been overwhelmed with flooding; the past two years have seen the most intense rainfall in decades. Bangladesh yearly experiences heavy monsoon flooding that destroys much of its infrastructure, but this year has been more challenging as people struggle to find shelter and are much more vulnerable to all sorts of diseases along with Covid. Some people see little difference between dying of starvation and dying from the virus, the best thing available to many are their prayers. Bangladeshi’s have lost much this year.
 <ul>
     <li>Pray for the flourishing of Bangladesh, for relief from flooding, infection, and economic toll, and for the building of good, long-lasting infrastructure</li>
     <li>Pray for Bangladeshi’s to discover through their prayers what can never be taken from them by disease, disaster, or death, the hope of Jesus Christ</li>
 </ul>
-</div>
-            </div>
-            <div class="songContainer">
-                <h2>Be Thou My Vision</h2>
-                <h3>Public Domain</h3>
-                    <p class="">Be Thou my vision O Lord of my heart
+
+
+TITLE: Be Thou My Vision
+ARTIST: Public Domain
+
+Be Thou my vision O Lord of my heart
 Naught be all else to me save that Thou art
 Thou my best thought by day or by night
 Waking or sleeping Thy presence my light
-</p>
-                    <p class="">Be Thou my wisdom be Thou my true Word
+
+Be Thou my wisdom be Thou my true Word
 I ever with Thee and Thou with me Lord
 Thou my great Father and I Thy true son
 Thou in me dwelling and I with Thee one
-</p>
-                    <p class="">Riches I heed not nor man’s empty praise
+
+Riches I heed not nor man’s empty praise
 Thou mine inheritance now and always
 Thou and Thou only be first in my heart
 High King of heaven my treasure Thou art
-</p>
-                    <p class="">High King of heaven when victory’s won
+
+High King of heaven when victory’s won
 May I reach heaven’s joys O bright heaven’s Sun
 Heart of my own heart whatever befall
 Still be my vision O Ruler of all
-</p>
-            </div>
-            <div class="songContainer">
-                <h2>No Other Name</h2>
-                <h3>Hillsong Worship</h3>
-                    <p class="">One Name holds weight above them all
+
+
+TITLE: No Other Name
+ARTIST: Hillsong Worship
+
+One Name holds weight above them all
 His fame outlasts the earth He formed
 His praise resounds beyond the stars
 And echoes in our hearts
 The greatest One of all
-</p>
-                    <p class="">His face shines brighter than the sun
+
+His face shines brighter than the sun
 His grace as boundless as His love
 He reigns with healing in His wings
 The King above all kings
 The greatest One of all
-</p>
-                    <p class="Chorus">Lift up our eyes see the King has come
+
+CHORUS:
+Lift up our eyes see the King has come
 Light of the world reaching out for us
 There is no other Name, there is no other Name
 Jesus Christ our God
@@ -247,33 +158,20 @@ Seated on high the undefeated One
 Mountains bow down as we lift Him up
 There is no other Name, there is no other Name
 Jesus Christ our God
-</p>
-                    <p class="">Find hope when all the world seems lost
+
+Find hope when all the world seems lost
 Behold the triumph of the cross
 His power has trampled death and grave
 Our life found in His Name
 The greatest Name of all
-</p>
-                    <p class="Bridge">The earth will shake and tremble before Him
+
+BRIDGE:
+The earth will shake and tremble before Him
 Chains will break as heaven and earth sing
 Holy is the Name
 Holy is the Name of Jesus, Jesus, Jesus
-</p>
-            </div>
-            <div class="sectionContainer">
-                <h2>Commission &amp; Benediction</h2>
-                <div class="sectionText"><b>2 Corinthians 13:14</b>
-“The grace of the Lord Jesus Christ and the love of God and the fellowship of the Holy Spirit be with you all.”
-</div>
-            </div>
 
-    <script>
-        $('body').flowtype({
-        minimum   : 400,
-        maximum   : 1200,
-        minFont   : 20,
-        maxFont   : 40,
-        fontRatio : 40
-        });
-    </script>
-</body>
+
+SECTION: Commission & Benediction
+<b>2 Corinthians 13:14</b>
+“The grace of the Lord Jesus Christ and the love of God and the fellowship of the Holy Spirit be with you all.”
