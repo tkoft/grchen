@@ -13,6 +13,7 @@
             padding-left: 16px;
             padding-top: 16px;
             font-size: 1.5em;
+            text-align: center;
         }
 
         h2 {
@@ -80,9 +81,17 @@
             font-style: italic;
             margin-left: 2em;
         }
+
+        .center {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 50%;
+        }
     </style>
 </head>
 <body>
+    <img src="trinitylogo.png" class="center"/>
     <h1 class="title">{{title}}</h1>
     {{#sections}}
         {{#isLiturgy}}
