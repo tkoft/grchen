@@ -29,14 +29,24 @@ def main(arguments):
     )
     parser.add_argument("infile", help="Input file", type=argparse.FileType("r"))
     parser.add_argument(
-        "-o",
-        "--outfile",
-        help="Output file",
-        default="worship.html",
-        type=argparse.FileType("w"),
+        "-l", "--lyrics", help="Generate lyrics only page", action="store_true"
     )
-
+    parser.add_argument(
+        "-o", "--outfile", help="Output file", type=argparse.FileType("w")
+    )
     args = parser.parse_args(arguments)
+
+    if args.lyrics and args.outfile is None:
+        outfile = open("lyrics.html", "w")
+    elif args.outfile is None:
+        outfile = open("worship.html", "w")
+    else:
+        outfile = args.outfile
+
+    if args.lyrics:
+        template_file = "lyrics_page_template.mustache"
+    else:
+        template_file = "liturgy_page_template.mustache"
 
     infile = args.infile
 
@@ -118,12 +128,12 @@ def main(arguments):
             )
         # starting new section or EOF
 
-    templateFile = open("liturgy_page_template.mustache", "r")
+    templateFile = open(template_file, "r")
     hashInfo = {"title": page_title, "sections": sections}
     output = pystache.render(templateFile.read(), hashInfo)
 
-    args.outfile.write(output)
-    args.outfile.close()
+    outfile.write(output)
+    outfile.close()
 
 
 if __name__ == "__main__":

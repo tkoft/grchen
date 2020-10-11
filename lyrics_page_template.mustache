@@ -1,0 +1,132 @@
+<head>
+    <title>{{title}}</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="flowtype.js"></script>
+    <style>
+        * {
+            font-family: Arial;
+            color: black;
+        }
+
+        h1.title {
+            color: #21618C; /* trinity blue, more or less */
+            padding-left: 16px;
+            padding-top: 16px;
+            font-size: 1.5em;
+            text-align: center;
+        }
+
+        h2 {
+            color: #2874A6;
+            font-size: 1.25em;
+        }
+
+        h3 {
+            color: #7FB3D5;
+            font-weight: normal;
+            font-style: italic;
+            font-size: 1em;
+        }
+
+        p {
+            white-space: pre-wrap;
+            word-wrap: break-word;
+            line-height: 1.5;
+        }
+
+        ul {
+            white-space: normal;
+            line-height: 1.5;
+        }
+
+        .sectionText {
+            white-space: pre-wrap;
+            word-wrap: break-word;
+            line-height: 1.5;
+        }
+
+        body {
+            background-color: WHITE;
+            margin: auto;
+            font-size: 18px;
+            max-width: 1500px;
+        }
+
+        .sectionContainer {
+            background: #F7F9F9; /* light gray */
+            padding: 16px 16px 32px 16px;
+            page-break-inside: avoid;
+        }
+
+        .sectionContainer:nth-child(odd) {
+            background: WHITE;
+            padding: 16px 16px 32px 16px;
+        }
+
+        .songContainer {
+            background: #EBF5FB; /* light blue */
+            padding: 16px 16px 16px 16px;
+            page-break-inside: avoid;
+        }
+
+        .songContainer:nth-child(odd) {
+            background: #EAF2F8; /* very light blue */
+            padding: 16px 16px 16px 16px;
+        }
+
+        .chorus {
+            margin-left: 2em;
+        }
+        .bridge {
+            font-style: italic;
+            margin-left: 2em;
+        }
+
+        .center {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 25%;
+        }
+
+        .footer {
+            text-align: center;
+            font-size: 14px;
+            color: gray;
+        }
+    </style>
+</head>
+<body>
+    <img src="trinitylogo.png" class="center"/>
+    <h1 class="title">{{title}}</h1>
+    {{#sections}}
+        {{#isLiturgy}}
+            <div class="sectionContainer">
+                <h2>{{sectionTitle}}</h2>
+                <div class="sectionText">{{{sectionText}}}</div>
+            </div>
+        {{/isLiturgy}}
+        {{#isSong}}
+            <div class="songContainer">
+                <h2>{{songTitle}}</h2>
+                <h3>{{songArtist}}</h3>
+                {{#verses}}
+                    <p class="{{#isChorus}}Chorus{{/isChorus}}{{#isBridge}}Bridge{{/isBridge}}">{{verse}}</p>
+                {{/verses}}
+            </div>
+        {{/isSong}}
+    {{/sections}}
+
+    <p class="footer">&#169; Trinity Cambridge Church<br>CCLI License # 11353390</p>
+
+
+    <script>
+        $('body').flowtype({
+        minimum   : 400,
+        maximum   : 1200,
+        minFont   : 20,
+        maxFont   : 40,
+        fontRatio : 40
+        });
+    </script>
+</body>
