@@ -74,14 +74,15 @@ def main(arguments):
                 section_text += next_line
                 next_line = readRealLine(infile)
 
-            sections.append(
-                {
-                    "isLiturgy": True,
-                    "isSong": False,
-                    "sectionTitle": section_title,
-                    "sectionText": section_text,
-                }
-            )
+            if not args.lyrics:
+                sections.append(
+                    {
+                        "isLiturgy": True,
+                        "isSong": False,
+                        "sectionTitle": section_title,
+                        "sectionText": section_text,
+                    }
+                )
 
         else:
             song_title = section_title_match.group(1)
