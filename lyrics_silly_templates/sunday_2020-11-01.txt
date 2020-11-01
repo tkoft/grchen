@@ -1,109 +1,7 @@
-<head>
-    <title>Sunday Corporate Worship 2020-11-01
-</title>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="flowtype.js"></script>
-    <style>
-        * {
-            font-family: Arial;
-            color: black;
-        }
+Sunday Corporate Worship 2020-11-01
 
-        h1.title {
-            color: #21618C; /* trinity blue, more or less */
-            padding-left: 16px;
-            padding-top: 16px;
-            font-size: 1.5em;
-            text-align: center;
-        }
-
-        h2 {
-            color: #2874A6;
-            font-size: 1.25em;
-        }
-
-        h3 {
-            color: #7FB3D5;
-            font-weight: normal;
-            font-style: italic;
-            font-size: 1em;
-        }
-
-        p {
-            white-space: pre-wrap;
-            word-wrap: break-word;
-            line-height: 1.5;
-        }
-
-        ul {
-            white-space: normal;
-            line-height: 1.5;
-        }
-
-        .sectionText {
-            white-space: pre-wrap;
-            word-wrap: break-word;
-            line-height: 1.5;
-        }
-
-        body {
-            background-color: WHITE;
-            margin: auto;
-            font-size: 18px;
-            max-width: 1500px;
-        }
-
-        .sectionContainer {
-            background: #F7F9F9; /* light gray */
-            padding: 16px 16px 32px 16px;
-            page-break-inside: avoid;
-        }
-
-        .sectionContainer:nth-child(odd) {
-            background: WHITE;
-            padding: 16px 16px 32px 16px;
-        }
-
-        .songContainer {
-            background: #EBF5FB; /* light blue */
-            padding: 16px 16px 16px 16px;
-            page-break-inside: avoid;
-        }
-
-        .songContainer:nth-child(odd) {
-            background: #EAF2F8; /* very light blue */
-            padding: 16px 16px 16px 16px;
-        }
-
-        .chorus {
-            margin-left: 2em;
-        }
-        .bridge {
-            font-style: italic;
-            margin-left: 2em;
-        }
-
-        .center {
-            display: block;
-            margin-left: auto;
-            margin-right: auto;
-            width: 50%;
-        }
-
-        .footer {
-            text-align: center;
-            font-size: 14px;
-            color: gray;
-        }
-    </style>
-</head>
-<body>
-    <img src="trinitylogo.png" class="center"/>
-    <h1 class="title">Sunday Corporate Worship 2020-11-01
-</h1>
-            <div class="sectionContainer">
-                <h2>Call to Worship</h2>
-                <div class="sectionText"><b>Psalm 103:13-22</b>
+SECTION: Call to Worship
+<b>Psalm 103:13-22</b>
 “As a father shows compassion to his children, so the LORD shows compassion to those who fear him. For he knows our frame; he remembers that we are dust.
 <b>As for man, his days are like grass; he flourishes like a flower of the field; for the wind passes over it, and it is gone, and its place knows it no more.</b>
 But the steadfast love of the LORD is from everlasting to everlasting on those who fear him, and his righteousness to children's children, to those who keep his covenant and remember to do his commandments. The LORD has established his throne in the heavens, and his kingdom rules over all.
@@ -113,12 +11,12 @@ the LORD, all his hosts, his ministers, who do his will!
 Bless the LORD, all his works, in all places of his
 dominion. Bless the LORD, O my soul!”</b>
 Let us bless the LORD together!
-</div>
-            </div>
-            <div class="songContainer">
-                <h2>Speak O Lord</h2>
-                <h3>Keith &amp; Kristyn Getty</h3>
-                    <p class="">Speak O Lord as we come to You
+
+
+TITLE: Speak O Lord
+ARTIST: Keith & Kristyn Getty
+
+Speak O Lord as we come to You
 To receive the food of Your holy word
 Take Your truth plant it deep in us
 Shape and fashion us in Your likeness
@@ -126,8 +24,8 @@ That the light of Christ might be seen today
 In our acts of love and our deeds of faith
 Speak O Lord and fulfill in us
 All Your promises for Your glory
-</p>
-                    <p class="">Teach us Lord full obedience
+
+Teach us Lord full obedience
 Holy reverence true humility
 Test our thoughts and our attitudes
 In the radiance of Your purity
@@ -135,8 +33,8 @@ Cause our faith to rise cause our eyes to see
 Your majestic love and authority
 Words of power that can never fail
 Let their truth prevail over unbelief
-</p>
-                    <p class="">Speak O Lord and renew our minds
+
+Speak O Lord and renew our minds
 Help us grasp the heights of Your plans for us
 Truths unchanged from the dawn of time
 That will echo down through eternity
@@ -144,76 +42,75 @@ And by grace we’ll stand on Your promises
 And by faith we’ll walk as You walk with us
 Speak O Lord till Your church is built
 And the earth is filled with Your glory
-</p>
-            </div>
-            <div class="songContainer">
-                <h2>God of Revivial</h2>
-                <h3>Bethel Music</h3>
-                    <p class="">We&#x27;ve seen what You can do, oh, God of wonders
+
+
+TITLE: God of Revivial
+ARTIST: Bethel Music
+
+We've seen what You can do, oh, God of wonders
 Your power has no end
-The things You&#x27;ve done before, in greater measure
+The things You've done before, in greater measure
 You will do again
-</p>
-                    <p class="Chorus">&#x27;Cause there&#x27;s no prison wall You can&#x27;t break through
-No mountain You can&#x27;t move, all things are possible
-There&#x27;s no broken body You can&#x27;t raise
-No soul that You can&#x27;t save, all things are possible
-</p>
-                    <p class="Chorus">The darkest night
+
+CHORUS:
+'Cause there's no prison wall You can't break through
+No mountain You can't move, all things are possible
+There's no broken body You can't raise
+No soul that You can't save, all things are possible
+
+CHORUS:
+The darkest night
 You can light it up
 You can light it up
 God of revival
 Let hope arise
 Death is overcome
-You&#x27;ve already won
+You've already won
 God of revival
-</p>
-                    <p class="">You rose in victory and now You&#x27;re seated
+
+You rose in victory and now You're seated
 Forever on the throne
-So why should my heart fear what You&#x27;ve defeated?
+So why should my heart fear what You've defeated?
 I will trust in You alone
-</p>
-                    <p class="Bridge">Come awaken Your people, come awaken Your city
+
+BRIDGE:
+Come awaken Your people, come awaken Your city
 Oh, God of revival, pour it out, pour it out
 Every stronghold will crumble, I hear the chains hit the ground
 Oh, God of revival, pour it out, pour it out
-</p>
-            </div>
-            <div class="sectionContainer">
-                <h2>Confession of Sin</h2>
-                <div class="sectionText">O LORD, our Lord, how majestic is Your name in all the earth! You have set Your glory above the heavens. When we look at Your heavens, the work of Your fingers, the moon and the stars, which You have set in place, what is man that You are mindful of him, and the son of man that You care for him? Yet You have made him a little lower than the heavenly beings and crowned him with glory and honor. ...
+
+
+
+SECTION: Confession of Sin
+O LORD, our Lord, how majestic is Your name in all the earth! You have set Your glory above the heavens. When we look at Your heavens, the work of Your fingers, the moon and the stars, which You have set in place, what is man that You are mindful of him, and the son of man that You care for him? Yet You have made him a little lower than the heavenly beings and crowned him with glory and honor. ...
 You have given him dominion over the works of Your hands; You have put all things under his feet, to rule the earth and lead Your worship as your image-bearer. But, alas, the crown has fallen from our heads: We have sinned; We are alien to You; Our heads are deceitful and wicked, our minds an enemy to Your law. ...
 Yet, in our lostness You have laid help on Your Son Jesus Christ and He comes between to put His hands on us both, our Umpire, our Mediator, whose blood is our peace, whose righteousness is our strength, whose condemnation is our freedom, whose Spirit is our power, whose heaven is our heritage. ...
 Grant that we may feel more the strength of Your grace in subduing the evil of our nature, in loosing us from the present evil world, in supporting us under the trials of life, in enabling us to abide with You in our valleys, in exercising us to have a conscience void of offense before You and before men. In all our affairs may we distinguish between duty and anxiety, and may our character and not our circumstances chiefly engage us.
-</div>
-            </div>
-            <div class="sectionContainer">
-                <h2>Assurance of Pardon</h2>
-                <div class="sectionText"><b>Acts 13:38; Ephesians 1:7</b>
+
+SECTION: Assurance of Pardon
+<b>Acts 13:38; Ephesians 1:7</b>
 "Through Jesus Christ forgiveness of sins is proclaimed to you. In Christ we have redemption through his blood, the forgiveness of our trespasses, according to the riches of his grace.”
 <b>Thanks be to God.</b>
-</div>
-            </div>
-            <div class="sectionContainer">
-                <h2>Scripture Reading &amp; Sermon</h2>
-                <div class="sectionText">Proverbs 25:1-26:28, “Courts and Conflicts”
+
+SECTION: Scripture Reading & Sermon
+Proverbs 25:1-26:28, “Courts and Conflicts”
 Shawn Woo
-</div>
-            </div>
-            <div class="sectionContainer">
-                <h2>Prayers of the People</h2>
-                <div class="sectionText"><b>Trinity Cambridge Church</b>
+
+SECTION: Prayers of the People
+<b>Trinity Cambridge Church</b>
 <ul>
     <li>That God would help us to speak wise words fitly spoken, speaking truth in love, benefiting those who listen, and giving comfort to the broken</li>
     <li>That we would be faithful messengers of the Lord Jesus and bring refreshing and joy to his heart</li>
     <li>That God would help us not to foolishly be wise in our own eyes but to have hearts always receptive to his instruction and discipline</li>
 </ul>
+
 <b>East Cambridge & Greater Boston</b>
 <ul>
     <li>That God would help our community not to be prideful in human accomplishments, education, or wealth but to fear and seek God</li>
     <li>That God would place the elected officials that he desires in places of authority during this election season, as well as move in people’s hearts to trust and hope in the Lord Jesus</li>
     <li>Wisdom, integrity, and humility for Ayanna Pressley, the U.S. Representative for Massachusetts's 7th congressional district (which includes the northern three-fourths of Boston and most of Cambridge)</li>
 </ul>
+
 <b>Christ the Redeemer (Quincy, MA)</b>
 <ul>
     <li>That Pastor Matthew Owens’s identity would be firmly rooted in Christ and not on ministry successes or failures, and that he would have faith that Christ will build His church</li>
@@ -221,77 +118,81 @@ Shawn Woo
     <li>For children's ministry director (Kara) and church administrator (Rebecca), who both joined the church staff part-time during the pandemic. Pray for them as they do the Lord's work in different ways</li>
     <li>For a spirit of generosity among the church and fromexternal fundraising partners</li>
 </ul>
+
 <b>China, Week 1: Intro</b>
 <i>Parable of the sower, Matthew 13:8: “Other seeds fell on good soil and produced grain, some a hundredfold, some sixty, some thirty”</i>
+
 This month we are praying for China. China is an amazing nation that God deeply loves as its Creator and the one who personally came to earth as a man and shed his blood for each of the 1.4 billion people currently living there. China has the largest population in the world, the largest cities, a massive global economy, a rich history and heritage, and is demographically and geographically filled with diversity.
+
 The church has experienced incredible blessing and growth despite intense struggles over the past decades so that it has become a huge church movement with possibly one of the highest percentages of Christians in the world. Despite this, there is still a great need for the 146 million Chinese people that remain unreached with the good news of Christ.
+
 <ul>
     <li>Pray for God to continue moving in and unleashing the church with a burden for those still without the good news of Christ in China</li>
     <li>Pray for the church in China to be a seed that produces grain a hundredfold than what was planted, blessing the peoples and nations around them with Christ’s love</li>
 </ul>
-</div>
-            </div>
-            <div class="sectionContainer">
-                <h2>Invitation to the Lord&#x27;s Supper</h2>
-                <div class="sectionText">Christ calls the bread his body and the cup his blood, or the new covenant in his blood. He wants to teach us that just as bread and wine nourish the temporal life, so too his crucified body and poured-out blood are the true food and drink of our souls for eternal life.
+
+
+SECTION: Invitation to the Lord's Supper
+Christ calls the bread his body and the cup his blood, or the new covenant in his blood. He wants to teach us that just as bread and wine nourish the temporal life, so too his crucified body and poured-out blood are the true food and drink of our souls for eternal life.
 <b>But more important, he wants to assure us, by this visible sign and pledge, that we, through the Holy Spirit’s work, share in his true body and blood as surely as our mouths receive these holy signs in his remembrance, and that all of his suffering and obedience are as definitely ours as if we personally had suffered and made satisfaction for our sins.</b>
+
 <i>(Heidelberg Catechism, Q&A 79)
 John 6:51, 55; 1 Cor. 10:16-17; 11:26; Rom. 6:5-11</i>
-</div>
-            </div>
-            <div class="sectionContainer">
-                <h2>Commemoration</h2>
-                <div class="sectionText">According to his commandment:
+
+SECTION: Commemoration
+According to his commandment:
 <b>We remember his death.
 We proclaim his resurrection.
 We await his coming in glory.</b>
-</div>
-            </div>
-            <div class="songContainer">
-                <h2>Reformation Song</h2>
-                <h3>Sovereign Grace Music</h3>
-                    <p class="">Your Word alone is solid ground
+
+
+TITLE: Reformation Song
+ARTIST: Sovereign Grace Music
+
+Your Word alone is solid ground
 The mighty rock on which we build
 In every line the truth is found
 And every page with glory filled
-</p>
-                    <p class="Chorus">Gloria, gloria, glory to God alone
+
+CHORUS:
 Gloria, gloria, glory to God alone
-</p>
-                    <p class="">Through faith alone we come to You
+Gloria, gloria, glory to God alone
+
+Through faith alone we come to You
 We have no merit we can claim
 Sure that Your promises are true
 We place our hope in Jesus’ name
-</p>
-                    <p class="">In Christ alone we’re justified
+
+In Christ alone we’re justified
 His righteousness is all our plea
 Your law’s demands are satisfied
 His perfect work has set us free
-</p>
-                    <p class="">By grace alone we have been saved
+
+By grace alone we have been saved
 All that we are has come from You
 Hearts that were once by sin enslaved
 Now by Your power have been made new
-</p>
-            </div>
-            <div class="songContainer">
-                <h2>King of Kings</h2>
-                <h3>Hillsong Worship</h3>
-                    <p class="">In the darkness, we were waiting
+
+
+TITLE: King of Kings
+ARTIST: Hillsong Worship
+
+In the darkness, we were waiting
 Without hope, without light
-&#x27;Til from Heaven You came running
+'Til from Heaven You came running
 There was mercy in Your eyes
 To fulfill the law and prophets
 To a virgin came the Word
 From a throne of endless glory
 To a cradle in the dirt
-</p>
-                    <p class="Chorus">Praise the Father, praise the Son
+
+CHORUS:
+Praise the Father, praise the Son
 Praise the Spirit, three in one
 God of glory, Majesty
 Praise forever to the King of Kings
-</p>
-                    <p class="">To reveal the kingdom coming
+
+To reveal the kingdom coming
 And to reconcile the lost
 To redeem the whole creation
 You did not despise the cross
@@ -299,17 +200,17 @@ For even in Your suffering
 You saw to the other side
 Knowing this was our salvation
 Jesus for our sake You died
-</p>
-                    <p class="">And the morning that You rose
+
+And the morning that You rose
 All of Heaven held its breath
-&#x27;Til that stone was moved for good
+'Til that stone was moved for good
 For the Lamb had conquered death
 And the dead rose from their tombs
 And the angels stood in awe
-For the souls of all who&#x27;d come
+For the souls of all who'd come
 To the Father are restored
-</p>
-                    <p class="">And the church of Christ was born
+
+And the church of Christ was born
 Then the Spirit lit the flame
 Now this gospel truth of old
 Shall not kneel, shall not faint
@@ -317,33 +218,14 @@ By His blood and in His name
 In His freedom I am free
 For the love of Jesus Christ
 Who has resurrected me, ohh
-</p>
-            </div>
-            <div class="sectionContainer">
-                <h2>Announcements</h2>
-                <div class="sectionText"><ul>
+
+
+SECTION: Announcements
+<ul>
     <li>Set-up volunteers: If you have an interest in helping with Sunday service set-up, we would appreciate your help! Please contact Jon So or Shawn Woo.</li>
     <li>Worship Service at Hope Fellowship Next Week: Today is our last service at Starlight Square. Beginning next week, worship services will be held at Hope Fellowship Church, day & time TBD (see email for more detail and survey link).</li>
 </ul>
-</div>
-            </div>
-            <div class="sectionContainer">
-                <h2>Commission &amp; Benediction</h2>
-                <div class="sectionText"><b>2 Corinthians 13:14</b>
+
+SECTION: Commission & Benediction
+<b>2 Corinthians 13:14</b>
 “The grace of the Lord Jesus Christ and the love of God and the fellowship of the Holy Spirit be with you all.”
-</div>
-            </div>
-
-    <p class="footer">&#169; Trinity Cambridge Church<br>CCLI License # 11353390</p>
-
-
-    <script>
-        $('body').flowtype({
-        minimum   : 400,
-        maximum   : 1200,
-        minFont   : 20,
-        maxFont   : 40,
-        fontRatio : 40
-        });
-    </script>
-</body>
