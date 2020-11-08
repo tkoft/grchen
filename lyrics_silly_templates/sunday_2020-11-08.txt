@@ -1,109 +1,7 @@
-<head>
-    <title>Sunday Corporate Worship 2020-10-11
-</title>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="flowtype.js"></script>
-    <style>
-        * {
-            font-family: Arial;
-            color: black;
-        }
+Sunday Corporate Worship 2020-10-11
 
-        h1.title {
-            color: #21618C; /* trinity blue, more or less */
-            padding-left: 16px;
-            padding-top: 16px;
-            font-size: 1.5em;
-            text-align: center;
-        }
-
-        h2 {
-            color: #2874A6;
-            font-size: 1.25em;
-        }
-
-        h3 {
-            color: #7FB3D5;
-            font-weight: normal;
-            font-style: italic;
-            font-size: 1em;
-        }
-
-        p {
-            white-space: pre-wrap;
-            word-wrap: break-word;
-            line-height: 1.5;
-        }
-
-        ul {
-            white-space: normal;
-            line-height: 1.5;
-        }
-
-        .sectionText {
-            white-space: pre-wrap;
-            word-wrap: break-word;
-            line-height: 1.5;
-        }
-
-        body {
-            background-color: WHITE;
-            margin: auto;
-            font-size: 18px;
-            max-width: 1500px;
-        }
-
-        .sectionContainer {
-            background: #F7F9F9; /* light gray */
-            padding: 16px 16px 32px 16px;
-            page-break-inside: avoid;
-        }
-
-        .sectionContainer:nth-child(odd) {
-            background: WHITE;
-            padding: 16px 16px 32px 16px;
-        }
-
-        .songContainer {
-            background: #EBF5FB; /* light blue */
-            padding: 16px 16px 16px 16px;
-            page-break-inside: avoid;
-        }
-
-        .songContainer:nth-child(odd) {
-            background: #EAF2F8; /* very light blue */
-            padding: 16px 16px 16px 16px;
-        }
-
-        .chorus {
-            margin-left: 2em;
-        }
-        .bridge {
-            font-style: italic;
-            margin-left: 2em;
-        }
-
-        .center {
-            display: block;
-            margin-left: auto;
-            margin-right: auto;
-            width: 50%;
-        }
-
-        .footer {
-            text-align: center;
-            font-size: 14px;
-            color: gray;
-        }
-    </style>
-</head>
-<body>
-    <img src="trinitylogo.png" class="center"/>
-    <h1 class="title">Sunday Corporate Worship 2020-10-11
-</h1>
-            <div class="sectionContainer">
-                <h2>Call to Worship</h2>
-                <div class="sectionText"><b>Psalm 133-134</b>
+SECTION: Call to Worship
+<b>Psalm 133-134</b>
 “Behold, how good and pleasant it is when brothers dwell in unity!
 <b>It is like the precious oil on the head, running down on the beard, on the beard of Aaron, running down on the collar of his robes!</b>
 It is like the dew of Hermon, which falls on the mountains of Zion! For there the LORD has commanded the blessing, life forevermore.
@@ -111,41 +9,36 @@ It is like the dew of Hermon, which falls on the mountains of Zion! For there th
 Lift up your hands to the holy place and bless the LORD!
 <b>May the LORD bless you from Zion, he who made heaven and earth!”</b>
 Let us worship together!
-</div>
-            </div>
-            <div class="sectionContainer">
-                <h2>Confession of Sin</h2>
-                <div class="sectionText"><b>O Lord, we bless You that those who turn aside may return to You immediately, and be welcomed without anything to commend them, notwithstanding all their former backsliding. We confess that this is suited to our case, for we did not come to the fountain that purges away all sin; we have labored too much for spiritual life, peace of conscience, progressive holiness, in our own strength.</b><br>
+
+
+SECTION: Confession of Sin
+<b>O Lord, we bless You that those who turn aside may return to You immediately, and be welcomed without anything to commend them, notwithstanding all their former backsliding. We confess that this is suited to our case, for we did not come to the fountain that purges away all sin; we have labored too much for spiritual life, peace of conscience, progressive holiness, in our own strength.</b><br>
 <b>We beg You, show us the arm of all might; help us to believe that You can do for us more than we ask or think, and that, though we backslide, Your love will never let us go, but will draw us back to You with everlasting cords. Keep us solemn, devout, faithful, resting on free grace for assistance, acceptance, and peace of conscience.</b><br>
 “Backsliding” (adapted from The Valley of Vision, pp. 156-157)
-</div>
-            </div>
-            <div class="sectionContainer">
-                <h2>Assurance of Pardon</h2>
-                <div class="sectionText"><b>1 Thessalonians 5:9-11</b>
+
+SECTION: Assurance of Pardon
+<b>1 Thessalonians 5:9-11</b>
 "God has not destined us for wrath, but to obtain salvation through our Lord Jesus Christ, who died for us so that whether we are awake or asleep we might live with him. Therefore encourage one another and build one another up, just as you are doing.”
 <b>Thanks be to God.</b>
-</div>
-            </div>
-            <div class="sectionContainer">
-                <h2>Scripture Reading &amp; Sermon</h2>
-                <div class="sectionText">Proverbs 27:1-27 "Friends and Friendship"
+
+SECTION: Scripture Reading & Sermon
+Proverbs 27:1-27 "Friends and Friendship"
 Shawn Woo
-</div>
-            </div>
-            <div class="sectionContainer">
-                <h2>Prayers of the People</h2>
-                <div class="sectionText"><b>Trinity Cambridge Church</b>
+
+SECTION: Prayers of the People
+<b>Trinity Cambridge Church</b>
 <ul>
     <li>That God would help us to be faithful friends in Christ to one another, speaking truth in love and sharpening one another</li>
     <li>That we would prioritize our relationships with each other during the pandemic, not isolating ourselves but finding practical ways to connect, love, and serve one another</li>
 </ul>
+
 <b>East Cambridge & Greater Boston</b>
 <ul>
     <li>That God would help us to make real, deep connections with our neighbors, doing the hard work of relationship-building for the Lord’s sake</li>
     <li>That God would have mercy upon our city in the midst of a COVID surge, providing for both our health and financial needs</li>
     <li>Sumbul Siddiqui, Mayor of Cambridge, and the rest of the City Council members to govern in wisdom and righteousness</li>
 </ul>
+
 <b>King of Grace Church (Haverhill, MA)</b>
 <ul>
     <li>Pastors Paul Buckley, Jeff Haavisto, and Toby Gayner </li>
@@ -153,7 +46,9 @@ Shawn Woo
     <li>For the abundance of faith, hope, and love</li>
     <li>That they would honor God in this crisis, love and serve one another effectively, and love and lead their neighbors to Jesus in word and deed</li>
 </ul>
+
 <b>China, Week 2: The Church</b>
+
 <i>Philippians 2:3-6: “In all my prayers for all of you, I always pray with joy because of your partnership in the gospel from the first day until now, being confident of this, that he who began a good work in you will carry it on to completion”</i><br>
 This week we are praying for the church in China. Pressure has been building. In the past the church experienced persecution and overcame as a faithful witness. This time tension is rising in a different way. Enforcement of existing religious policies and the addition of new policies has tightened restrictions on social media, internet use, and NGOs throughout the whole country. The online sale of Bibles was banned in 2018, and churches are being closely monitored with surveillance. Registered and unregistered, Catholic and protestant, churches are under pressure to conform to prevailing ideology or face potential closure. Because of this pressure, the church in China has risen to 23rd on the World Watch List of church persecution. Christianity is often seen as a Western power move intending to subvert China instead of a truly Chinese religion.
 <ul>
@@ -162,165 +57,155 @@ boldness</li>
     <li>Pray for the church to conform to the teachings of the Bible, not prevailing ideologies - whether Government or Western - and to usher in the kingdom of God as leading examples among world believers</li>
     <li>Pray against division in the church with the pressure, but instead for unity, especially with the Three-Self Church and house churches</li>
 </ul>
-</div>
-            </div>
-            <div class="sectionContainer">
-                <h2>Invitation to the Lord&#x27;s Supper</h2>
-                <div class="sectionText">Christ calls the bread his body and the cup his blood, or the new covenant in his blood. He wants to teach us that just as bread and wine nourish the temporal life, so too his crucified body and poured-out blood are the true food and drink of our souls for eternal life.
+
+
+SECTION: Invitation to the Lord's Supper
+Christ calls the bread his body and the cup his blood, or the new covenant in his blood. He wants to teach us that just as bread and wine nourish the temporal life, so too his crucified body and poured-out blood are the true food and drink of our souls for eternal life.
 <b>But more important, he wants to assure us, by this visible sign and pledge, that we, through the Holy Spirit’s work, share in his true body and blood as surely as our mouths receive these holy signs in his remembrance, and that all of his suffering and obedience are as definitely ours as if we personally had suffered and made satisfaction for our sins.</b>
+
 (Heidelberg Catechism, Q&A 79)
 John 6:51, 55; 1 Cor. 10:16-17; 11:26; Rom. 6:5-11
-</div>
-            </div>
-            <div class="sectionContainer">
-                <h2>Commemoration</h2>
-                <div class="sectionText">According to his commandment:
+
+
+SECTION: Commemoration
+According to his commandment:
 <b>
 We remember his death.
 We proclaim his resurrection.
 We await his coming in glory.
 </b>
-</div>
-            </div>
-            <div class="songContainer">
-                <h2>Jesus We Love You</h2>
-                <h3>Bethel Music</h3>
-                    <p class="">Old things have passed away
+
+
+TITLE: Jesus We Love You
+ARTIST: Bethel Music
+
+Old things have passed away
 Your love has stayed the same
 Your constant grace remains the cornerstone
-</p>
-                    <p class="">Things that we thought were dead
+
+Things that we thought were dead
 Are breathing in life again
 You cause your Son to shine on darkest nights
-</p>
-                    <p class="">For all that you&#x27;ve done, we will pour out our love
+
+For all that you've done, we will pour out our love
 This will be our anthem song
-</p>
-                    <p class="Chorus">Jesus we love you
+
+CHORUS:
+Jesus we love you
 Oh how we love you
 You are the one our, our hearts adore
-</p>
-                    <p class="">The hopeless have found their hope
+
+The hopeless have found their hope
 The orphans now have a home
 All that was lost has found its place in you
-</p>
-                    <p class="">You lift our weary head
+
+You lift our weary head
 You make us strong instead
 You took these rags and made us beautiful
-</p>
-                    <p class="">For all that you&#x27;ve done, we will pour out our love
+
+For all that you've done, we will pour out our love
 This will be our anthem song
-</p>
-                    <p class="Bridge">Our affection, our devotion
+
+BRIDGE:
+Our affection, our devotion
 Poured out on the feet of Jesus
 Our affection, our devotion
 Poured out on the feet of Jesus
-</p>
-            </div>
-            <div class="songContainer">
-                <h2>More Like Jesus</h2>
-                <h3>Passion</h3>
-                    <p class="">You came to the world you created
+
+
+TITLE: More Like Jesus
+ARTIST: Passion
+
+You came to the world you created
 Trading your crown for a cross
 You willingly died
 Your innocent life paid the cost
-</p>
-                    <p class="">Counting your status as nothing,
+
+Counting your status as nothing,
 The King of all kings came to serve
 Washing my feet
 Covering me with your love
-</p>
-                    <p class="Chorus">If more of You means less of me
+
+CHORUS:
+If more of You means less of me
 Take everything
 Yes, all of You is all I need
 Take everything
-</p>
-                    <p class="">You are my life and my treasure
-The one that I can&#x27;t live without
+
+You are my life and my treasure
+The one that I can't live without
 Here at your feet my desires and dreams, I lay down
 Here at your feet my desires and dreams, I lay down
-</p>
-                    <p class="Bridge">Oh Lord
+
+BRIDGE:
+Oh Lord
 Change me like only You can
 Here with my hearts in your hands
 Father, I pray make me more like Jesus
-</p>
-                    <p class="Bridge">This world
+
+BRIDGE:
+This world
 Is dying to know who You are
-You&#x27;ve shown us the way to Your heart
+You've shown us the way to Your heart
 Father, I pray make me more like Jesus
-</p>
-            </div>
-            <div class="songContainer">
-                <h2>Yet Not I but Through Christ in Me</h2>
-                <h3>CityAlight</h3>
-                    <p class="">What gift of grace is Jesus my redeemer
+
+
+TITLE: Yet Not I but Through Christ in Me
+ARTIST: CityAlight
+
+What gift of grace is Jesus my redeemer
 There is no more for heaven now to give
 He is my joy, my righteousness, and freedom
 My steadfast love, my deep and boundless peace
-</p>
-                    <p class="Chorus">To this I hold, my hope is only Jesus
+
+CHORUS:
+To this I hold, my hope is only Jesus
 For my life is wholly bound to His
 Oh how strange and divine, I can sing: all is mine!
 Yet not I, but through Christ in me
-</p>
-                    <p class="">The night is dark but I am not forsaken
+
+The night is dark but I am not forsaken
 For by my side, the Saviour He will stay
 I labour on in weakness and rejoicing
 For in my need, His power is displayed
-</p>
-                    <p class="Chorus">To this I hold, my Shepherd will defend me
+
+CHORUS:
+To this I hold, my Shepherd will defend me
 Through the deepest valley He will lead
 Oh the night has been won, and I shall overcome!
 Yet not I, but through Christ in me
-</p>
-                    <p class="">No fate I dread, I know I am forgiven
+
+No fate I dread, I know I am forgiven
 The future sure, the price it has been paid
 For Jesus bled and suffered for my pardon
 And He was raised to overthrow the grave
-</p>
-                    <p class="Chorus">To this I hold, my sin has been defeated
+
+CHORUS:
+To this I hold, my sin has been defeated
 Jesus now and ever is my plea
 Oh the chains are released, I can sing: I am free!
 Yet not I, but through Christ in me
-</p>
-                    <p class="">With every breath I long to follow Jesus
+
+With every breath I long to follow Jesus
 For He has said that He will bring me home
 And day by day I know He will renew me
 Until I stand with joy before the throne
-</p>
-                    <p class="Chorus">To this I hold, my hope is only Jesus
+
+CHORUS:
+To this I hold, my hope is only Jesus
 All the glory evermore to Him
 When the race is complete, still my lips shall repeat
 Yet not I, but through Christ in me!
-</p>
-            </div>
-            <div class="sectionContainer">
-                <h2>Announcements</h2>
-                <div class="sectionText"><ul>
+
+
+
+SECTION: Announcements
+<ul>
     <li>Set-up volunteers: If you have an interest in helping with Sunday service set-up, we would appreciate your help! Please contact Jon So or Shawn Woo. </li>
     <li>Meeting for Greeters & Clean-up Volunteers: After service on November 15, there will be a meeting for Greeters & Clean-up volunteers. Please look for Natalie Ma and Jon So. The meeting should take 15 mins.</li>
     <li>Prayer during the week: Please join us during the week for Dawn Prayer (every weekday 6-6:45am via Zoom) and Wednesday evening prayer (7pm in-person and Zoom). For more info, please see https://trinitycambridge.com/pray/.</li>
 </ul>
-</div>
-            </div>
-            <div class="sectionContainer">
-                <h2>Commission &amp; Benediction</h2>
-                <div class="sectionText"><b>2 Corinthians 13:14</b>
+
+SECTION: Commission & Benediction
+<b>2 Corinthians 13:14</b>
 “The grace of the Lord Jesus Christ and the love of God and the fellowship of the Holy Spirit be with you all.”
-</div>
-            </div>
-
-    <p class="footer">&#169; 2020 Trinity Cambridge Church<br>CCLI License # 11353390</p>
-
-
-    <script>
-        $('body').flowtype({
-        minimum   : 400,
-        maximum   : 1200,
-        minFont   : 20,
-        maxFont   : 40,
-        fontRatio : 40
-        });
-    </script>
-</body>
